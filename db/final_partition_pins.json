@@ -1,0 +1,153 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "keypadRow[0]",
+					"strict" : false
+				},
+				{
+					"name" : "keypadRow[1]",
+					"strict" : false
+				},
+				{
+					"name" : "keypadRow[2]",
+					"strict" : false
+				},
+				{
+					"name" : "keypadRow[3]",
+					"strict" : false
+				},
+				{
+					"name" : "o2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "o2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "o2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "o2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "o2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "o2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "o4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "o4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "o4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "o4[4]",
+					"strict" : false
+				},
+				{
+					"name" : "o4[5]",
+					"strict" : false
+				},
+				{
+					"name" : "o4[6]",
+					"strict" : false
+				},
+				{
+					"name" : "o5[0]",
+					"strict" : false
+				},
+				{
+					"name" : "o5[1]",
+					"strict" : false
+				},
+				{
+					"name" : "o5[2]",
+					"strict" : false
+				},
+				{
+					"name" : "o5[3]",
+					"strict" : false
+				},
+				{
+					"name" : "o5[4]",
+					"strict" : false
+				},
+				{
+					"name" : "o5[5]",
+					"strict" : false
+				},
+				{
+					"name" : "o5[6]",
+					"strict" : false
+				},
+				{
+					"name" : "match",
+					"strict" : false
+				},
+				{
+					"name" : "show",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "state",
+					"strict" : false
+				},
+				{
+					"name" : "digit[0]",
+					"strict" : false
+				},
+				{
+					"name" : "digit[3]",
+					"strict" : false
+				},
+				{
+					"name" : "digit[1]",
+					"strict" : false
+				},
+				{
+					"name" : "digit[2]",
+					"strict" : false
+				},
+				{
+					"name" : "keypadCol[1]",
+					"strict" : false
+				},
+				{
+					"name" : "keypadCol[2]",
+					"strict" : false
+				},
+				{
+					"name" : "keypadCol[3]",
+					"strict" : false
+				},
+				{
+					"name" : "keypadCol[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
