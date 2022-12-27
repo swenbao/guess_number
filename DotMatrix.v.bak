@@ -1,0 +1,54 @@
+module DotMatrix(clk_div,reset,state,dot_row,dot_col);
+input clk_div;
+input reset;
+input [1:0] state;
+output reg [7:0] dot_row;
+output reg [7:0] dot_col;
+reg [2:0] row_count;
+always @(posedge clk_div or negedge reset)begin
+if(!reset)begin //reset=0
+	dot_row<=8'b11111111;
+	dot_col<=8'd0;
+	row_count<= 3'd0;
+end
+else begin //reset=1
+	row_count<=row_count+1;
+	case(row_count) //different row show
+		3'd0: dot_row <= 8'b01111111;
+		3'd1: dot_row <= 8'b10111111;
+		3'd2: dot_row <= 8'b11011111;
+		3'd3: dot_row <= 8'b11101111;
+		3'd4: dot_row <= 8'b11110111;
+		3'd5: dot_row <= 8'b11111011;
+		3'd6: dot_row <= 8'b11111101;
+		3'd7: dot_row <= 8'b11111110;
+	endcase
+	case(state)
+		2'd1:begin //good
+		case(row_count)
+		3'd0: dot_col <= 8'b00000000;
+		3'd1: dot_col <= 8'b00110000;
+		3'd2: dot_col <= 8'b01110000;
+		3'd3: dot_col <= 8'b01111110;
+		3'd4: dot_col <= 8'b11111110;
+		3'd5: dot_col <= 8'b11111110;
+		3'd6: dot_col <= 8'b11111110;
+		3'd7: dot_col <= 8'b00000000;
+		endcase
+		end
+		default:begin //bad
+		case(row_count)
+			3'd0: dot_col <= 8'b00000000;
+			3'd1: dot_col <= 8'b11111110;
+			3'd2: dot_col <= 8'b11111110;
+			3'd3: dot_col <= 8'b11111110;
+			3'd4: dot_col <= 8'b01111110;
+			3'd5: dot_col <= 8'b00110000;
+			3'd6: dot_col <= 8'b00110000;
+			3'd7: dot_col <= 8'b00000000;
+		endcase
+		end
+	endcase
+end
+end
+endmodule

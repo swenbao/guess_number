@@ -3,147 +3,147 @@ Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1100mV 85C Model Setup 'clk'
-Slack : -5.986
-TNS   : -120.212
+Slack : -5.703
+TNS   : -139.093
 
-Type  : Slow 1100mV 85C Model Setup 'digit[0]'
-Slack : -4.730
-TNS   : -131.077
+Type  : Slow 1100mV 85C Model Setup 'state'
+Slack : -4.524
+TNS   : -128.645
 
 Type  : Slow 1100mV 85C Model Setup 'FrequencyDivider:fd|clk_div'
-Slack : -1.805
-TNS   : -16.817
+Slack : -1.953
+TNS   : -13.024
 
 Type  : Slow 1100mV 85C Model Hold 'clk'
-Slack : 0.440
+Slack : 0.443
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'state'
+Slack : 0.643
 TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Hold 'FrequencyDivider:fd|clk_div'
-Slack : 0.737
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'digit[0]'
-Slack : 0.869
+Slack : 0.860
 TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
 Slack : -0.538
-TNS   : -30.904
+TNS   : -33.905
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'FrequencyDivider:fd|clk_div'
 Slack : -0.538
-TNS   : -7.745
+TNS   : -7.875
 
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'digit[0]'
-Slack : 0.077
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'state'
+Slack : 0.072
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Setup 'clk'
-Slack : -6.186
-TNS   : -121.983
+Slack : -5.770
+TNS   : -138.155
 
-Type  : Slow 1100mV 0C Model Setup 'digit[0]'
-Slack : -4.455
-TNS   : -125.680
+Type  : Slow 1100mV 0C Model Setup 'state'
+Slack : -4.263
+TNS   : -120.092
 
 Type  : Slow 1100mV 0C Model Setup 'FrequencyDivider:fd|clk_div'
-Slack : -1.825
-TNS   : -16.721
+Slack : -1.994
+TNS   : -12.944
 
-Type  : Slow 1100mV 0C Model Hold 'clk'
-Slack : 0.447
+Type  : Slow 1100mV 0C Model Hold 'state'
+Slack : 0.268
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Hold 'digit[0]'
-Slack : 0.597
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : 0.448
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Hold 'FrequencyDivider:fd|clk_div'
-Slack : 0.721
+Slack : 0.895
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
 Slack : -0.538
-TNS   : -31.975
+TNS   : -34.987
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'FrequencyDivider:fd|clk_div'
 Slack : -0.538
-TNS   : -7.743
+TNS   : -7.827
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'digit[0]'
-Slack : 0.104
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'state'
+Slack : 0.090
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Setup 'clk'
-Slack : -3.069
-TNS   : -40.872
+Slack : -3.035
+TNS   : -49.309
 
-Type  : Fast 1100mV 85C Model Setup 'digit[0]'
-Slack : -2.582
-TNS   : -74.395
+Type  : Fast 1100mV 85C Model Setup 'state'
+Slack : -2.504
+TNS   : -72.096
 
 Type  : Fast 1100mV 85C Model Setup 'FrequencyDivider:fd|clk_div'
-Slack : -0.594
-TNS   : -5.092
+Slack : -0.611
+TNS   : -4.223
 
 Type  : Fast 1100mV 85C Model Hold 'clk'
-Slack : 0.202
+Slack : 0.200
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Hold 'FrequencyDivider:fd|clk_div'
-Slack : 0.302
+Slack : 0.300
 TNS   : 0.000
 
-Type  : Fast 1100mV 85C Model Hold 'digit[0]'
-Slack : 0.429
+Type  : Fast 1100mV 85C Model Hold 'state'
+Slack : 0.369
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
-Slack : -0.406
-TNS   : -3.930
+Slack : -0.346
+TNS   : -4.219
 
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'digit[0]'
-Slack : -0.154
-TNS   : -3.455
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'state'
+Slack : -0.163
+TNS   : -4.989
 
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'FrequencyDivider:fd|clk_div'
-Slack : 0.143
+Slack : 0.090
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Setup 'clk'
-Slack : -2.795
-TNS   : -35.565
+Slack : -2.724
+TNS   : -42.283
 
-Type  : Fast 1100mV 0C Model Setup 'digit[0]'
-Slack : -2.056
-TNS   : -59.192
+Type  : Fast 1100mV 0C Model Setup 'state'
+Slack : -1.990
+TNS   : -56.599
 
 Type  : Fast 1100mV 0C Model Setup 'FrequencyDivider:fd|clk_div'
-Slack : -0.490
-TNS   : -4.245
+Slack : -0.535
+TNS   : -3.456
 
 Type  : Fast 1100mV 0C Model Hold 'clk'
-Slack : 0.189
+Slack : 0.191
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Hold 'digit[0]'
-Slack : 0.213
+Type  : Fast 1100mV 0C Model Hold 'state'
+Slack : 0.193
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Hold 'FrequencyDivider:fd|clk_div'
-Slack : 0.269
+Slack : 0.280
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
-Slack : -0.394
-TNS   : -4.030
+Slack : -0.346
+TNS   : -4.338
 
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'digit[0]'
-Slack : -0.116
-TNS   : -2.522
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'state'
+Slack : -0.125
+TNS   : -3.395
 
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'FrequencyDivider:fd|clk_div'
-Slack : 0.142
+Slack : 0.103
 TNS   : 0.000
 
 ------------------------------------------------------------
