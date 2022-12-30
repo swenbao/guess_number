@@ -1,5 +1,5 @@
 Fitter report for final
-Fri Dec 30 14:42:37 2022
+Fri Dec 30 14:57:59 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -62,16 +62,16 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Fitter Summary                                                                ;
 +---------------------------------+---------------------------------------------+
-; Fitter Status                   ; Successful - Fri Dec 30 14:42:37 2022       ;
+; Fitter Status                   ; Successful - Fri Dec 30 14:57:59 2022       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; final                                       ;
 ; Top-level Entity Name           ; final                                       ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CEFA4F23C7                                 ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 127 / 18,480 ( < 1 % )                      ;
-; Total registers                 ; 133                                         ;
-; Total pins                      ; 81 / 224 ( 36 % )                           ;
+; Logic utilization (in ALMs)     ; 126 / 18,480 ( < 1 % )                      ;
+; Total registers                 ; 128                                         ;
+; Total pins                      ; 76 / 224 ( 34 % )                           ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0 / 3,153,920 ( 0 % )                       ;
 ; Total RAM Blocks                ; 0 / 308 ( 0 % )                             ;
@@ -183,25 +183,20 @@ refer to the applicable agreement for further details.
 ; FrequencyDivider2:fd2|count[13] ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; FrequencyDivider2:fd2|count[13]~DUPLICATE ;                  ;                       ;
 ; FrequencyDivider2:fd2|count[15] ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; FrequencyDivider2:fd2|count[15]~DUPLICATE ;                  ;                       ;
 ; FrequencyDivider2:fd2|count[16] ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; FrequencyDivider2:fd2|count[16]~DUPLICATE ;                  ;                       ;
+; FrequencyDivider2:fd2|count[17] ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; FrequencyDivider2:fd2|count[17]~DUPLICATE ;                  ;                       ;
 ; FrequencyDivider2:fd2|count[18] ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; FrequencyDivider2:fd2|count[18]~DUPLICATE ;                  ;                       ;
 ; FrequencyDivider2:fd2|count[19] ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; FrequencyDivider2:fd2|count[19]~DUPLICATE ;                  ;                       ;
+; FrequencyDivider2:fd2|count[21] ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; FrequencyDivider2:fd2|count[21]~DUPLICATE ;                  ;                       ;
+; FrequencyDivider2:fd2|count[28] ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; FrequencyDivider2:fd2|count[28]~DUPLICATE ;                  ;                       ;
 ; FrequencyDivider2:fd2|count[31] ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; FrequencyDivider2:fd2|count[31]~DUPLICATE ;                  ;                       ;
-; FrequencyDivider:fd|count[0]    ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; FrequencyDivider:fd|count[0]~DUPLICATE    ;                  ;                       ;
-; FrequencyDivider:fd|count[1]    ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; FrequencyDivider:fd|count[1]~DUPLICATE    ;                  ;                       ;
-; FrequencyDivider:fd|count[3]    ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; FrequencyDivider:fd|count[3]~DUPLICATE    ;                  ;                       ;
-; FrequencyDivider:fd|count[4]    ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; FrequencyDivider:fd|count[4]~DUPLICATE    ;                  ;                       ;
-; FrequencyDivider:fd|count[5]    ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; FrequencyDivider:fd|count[5]~DUPLICATE    ;                  ;                       ;
-; FrequencyDivider:fd|count[6]    ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; FrequencyDivider:fd|count[6]~DUPLICATE    ;                  ;                       ;
 ; FrequencyDivider:fd|count[7]    ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; FrequencyDivider:fd|count[7]~DUPLICATE    ;                  ;                       ;
 ; FrequencyDivider:fd|count[8]    ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; FrequencyDivider:fd|count[8]~DUPLICATE    ;                  ;                       ;
 ; FrequencyDivider:fd|count[9]    ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; FrequencyDivider:fd|count[9]~DUPLICATE    ;                  ;                       ;
-; FrequencyDivider:fd|count[15]   ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; FrequencyDivider:fd|count[15]~DUPLICATE   ;                  ;                       ;
-; FrequencyDivider:fd|count[16]   ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; FrequencyDivider:fd|count[16]~DUPLICATE   ;                  ;                       ;
-; FrequencyDivider:fd|count[23]   ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; FrequencyDivider:fd|count[23]~DUPLICATE   ;                  ;                       ;
-; FrequencyDivider:fd|count[24]   ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; FrequencyDivider:fd|count[24]~DUPLICATE   ;                  ;                       ;
-; FrequencyDivider:fd|count[25]   ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; FrequencyDivider:fd|count[25]~DUPLICATE   ;                  ;                       ;
-; FrequencyDivider:fd|count[26]   ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; FrequencyDivider:fd|count[26]~DUPLICATE   ;                  ;                       ;
-; FrequencyDivider:fd|count[27]   ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; FrequencyDivider:fd|count[27]~DUPLICATE   ;                  ;                       ;
+; FrequencyDivider:fd|count[11]   ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; FrequencyDivider:fd|count[11]~DUPLICATE   ;                  ;                       ;
+; FrequencyDivider:fd|count[12]   ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; FrequencyDivider:fd|count[12]~DUPLICATE   ;                  ;                       ;
+; FrequencyDivider:fd|count[17]   ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; FrequencyDivider:fd|count[17]~DUPLICATE   ;                  ;                       ;
+; FrequencyDivider:fd|count[22]   ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; FrequencyDivider:fd|count[22]~DUPLICATE   ;                  ;                       ;
+; FrequencyDivider:fd|count[29]   ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; FrequencyDivider:fd|count[29]~DUPLICATE   ;                  ;                       ;
 +---------------------------------+------------+---------------------------------------------------+----------------------------+-----------+----------------+-------------------------------------------+------------------+-----------------------+
 
 
@@ -211,8 +206,8 @@ refer to the applicable agreement for further details.
 ; Type                ; Total [A + B]      ; From Design Partitions [A] ; From Rapid Recompile [B] ;
 +---------------------+--------------------+----------------------------+--------------------------+
 ; Placement (by node) ;                    ;                            ;                          ;
-;     -- Requested    ; 0.00 % ( 0 / 488 ) ; 0.00 % ( 0 / 488 )         ; 0.00 % ( 0 / 488 )       ;
-;     -- Achieved     ; 0.00 % ( 0 / 488 ) ; 0.00 % ( 0 / 488 )         ; 0.00 % ( 0 / 488 )       ;
+;     -- Requested    ; 0.00 % ( 0 / 478 ) ; 0.00 % ( 0 / 478 )         ; 0.00 % ( 0 / 478 )       ;
+;     -- Achieved     ; 0.00 % ( 0 / 478 ) ; 0.00 % ( 0 / 478 )         ; 0.00 % ( 0 / 478 )       ;
 ;                     ;                    ;                            ;                          ;
 ; Routing (by net)    ;                    ;                            ;                          ;
 ;     -- Requested    ; 0.00 % ( 0 / 0 )   ; 0.00 % ( 0 / 0 )           ; 0.00 % ( 0 / 0 )         ;
@@ -235,7 +230,7 @@ refer to the applicable agreement for further details.
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 ; Partition Name                 ; Preservation Achieved ; Preservation Level Used ; Netlist Type Used ; Preservation Method ; Notes ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
-; Top                            ; 0.00 % ( 0 / 488 )    ; N/A                     ; Source File       ; N/A                 ;       ;
+; Top                            ; 0.00 % ( 0 / 478 )    ; N/A                     ; Source File       ; N/A                 ;       ;
 ; hard_block:auto_generated_inst ; 0.00 % ( 0 / 0 )      ; N/A                     ; Source File       ; N/A                 ;       ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 
@@ -251,14 +246,14 @@ The pin-out file can be found in C:/intelFPGA_lite/guess_number/output_files/fin
 +-------------------------------------------------------------+--------------------+-------+
 ; Resource                                                    ; Usage              ; %     ;
 +-------------------------------------------------------------+--------------------+-------+
-; Logic utilization (ALMs needed / total ALMs on device)      ; 127 / 18,480       ; < 1 % ;
-; ALMs needed [=A-B+C]                                        ; 127                ;       ;
-;     [A] ALMs used in final placement [=a+b+c+d]             ; 134 / 18,480       ; < 1 % ;
+; Logic utilization (ALMs needed / total ALMs on device)      ; 126 / 18,480       ; < 1 % ;
+; ALMs needed [=A-B+C]                                        ; 126                ;       ;
+;     [A] ALMs used in final placement [=a+b+c+d]             ; 137 / 18,480       ; < 1 % ;
 ;         [a] ALMs used for LUT logic and registers           ; 47                 ;       ;
-;         [b] ALMs used for LUT logic                         ; 83                 ;       ;
+;         [b] ALMs used for LUT logic                         ; 86                 ;       ;
 ;         [c] ALMs used for registers                         ; 4                  ;       ;
 ;         [d] ALMs used for memory (up to half of total ALMs) ; 0                  ;       ;
-;     [B] Estimate of ALMs recoverable by dense packing       ; 7 / 18,480         ; < 1 % ;
+;     [B] Estimate of ALMs recoverable by dense packing       ; 11 / 18,480        ; < 1 % ;
 ;     [C] Estimate of ALMs unavailable [=a+b+c+d]             ; 0 / 18,480         ; 0 %   ;
 ;         [a] Due to location constrained logic               ; 0                  ;       ;
 ;         [b] Due to LAB-wide signal conflicts                ; 0                  ;       ;
@@ -267,8 +262,8 @@ The pin-out file can be found in C:/intelFPGA_lite/guess_number/output_files/fin
 ;                                                             ;                    ;       ;
 ; Difficulty packing design                                   ; Low                ;       ;
 ;                                                             ;                    ;       ;
-; Total LABs:  partially or completely used                   ; 19 / 1,848         ; 1 %   ;
-;     -- Logic LABs                                           ; 19                 ;       ;
+; Total LABs:  partially or completely used                   ; 25 / 1,848         ; 1 %   ;
+;     -- Logic LABs                                           ; 25                 ;       ;
 ;     -- Memory LABs (up to half of total LABs)               ; 0                  ;       ;
 ;                                                             ;                    ;       ;
 ; Combinational ALUT usage for logic                          ; 225                ;       ;
@@ -277,18 +272,18 @@ The pin-out file can be found in C:/intelFPGA_lite/guess_number/output_files/fin
 ;     -- 5 input functions                                    ; 38                 ;       ;
 ;     -- 4 input functions                                    ; 38                 ;       ;
 ;     -- <=3 input functions                                  ; 122                ;       ;
-; Combinational ALUT usage for route-throughs                 ; 0                  ;       ;
+; Combinational ALUT usage for route-throughs                 ; 4                  ;       ;
 ;                                                             ;                    ;       ;
-; Dedicated logic registers                                   ; 133                ;       ;
+; Dedicated logic registers                                   ; 128                ;       ;
 ;     -- By type:                                             ;                    ;       ;
 ;         -- Primary logic registers                          ; 100 / 36,960       ; < 1 % ;
-;         -- Secondary logic registers                        ; 33 / 36,960        ; < 1 % ;
+;         -- Secondary logic registers                        ; 28 / 36,960        ; < 1 % ;
 ;     -- By function:                                         ;                    ;       ;
 ;         -- Design implementation registers                  ; 100                ;       ;
-;         -- Routing optimization registers                   ; 33                 ;       ;
+;         -- Routing optimization registers                   ; 28                 ;       ;
 ;                                                             ;                    ;       ;
 ; Virtual pins                                                ; 0                  ;       ;
-; I/O pins                                                    ; 81 / 224           ; 36 %  ;
+; I/O pins                                                    ; 76 / 224           ; 34 %  ;
 ;     -- Clock pins                                           ; 5 / 9              ; 56 %  ;
 ;     -- Dedicated input pins                                 ; 0 / 11             ; 0 %   ;
 ;                                                             ;                    ;       ;
@@ -312,12 +307,12 @@ The pin-out file can be found in C:/intelFPGA_lite/guess_number/output_files/fin
 ; Oscillator blocks                                           ; 0 / 1              ; 0 %   ;
 ; Impedance control blocks                                    ; 0 / 3              ; 0 %   ;
 ; Hard Memory Controllers                                     ; 0 / 1              ; 0 %   ;
-; Average interconnect usage (total/H/V)                      ; 0.5% / 0.4% / 0.7% ;       ;
-; Peak interconnect usage (total/H/V)                         ; 4.8% / 4.8% / 4.9% ;       ;
-; Maximum fan-out                                             ; 131                ;       ;
-; Highest non-global fan-out                                  ; 131                ;       ;
-; Total fan-out                                               ; 1431               ;       ;
-; Average fan-out                                             ; 2.75               ;       ;
+; Average interconnect usage (total/H/V)                      ; 0.5% / 0.4% / 0.8% ;       ;
+; Peak interconnect usage (total/H/V)                         ; 4.1% / 4.1% / 4.1% ;       ;
+; Maximum fan-out                                             ; 126                ;       ;
+; Highest non-global fan-out                                  ; 126                ;       ;
+; Total fan-out                                               ; 1410               ;       ;
+; Average fan-out                                             ; 2.76               ;       ;
 +-------------------------------------------------------------+--------------------+-------+
 
 
@@ -326,14 +321,14 @@ The pin-out file can be found in C:/intelFPGA_lite/guess_number/output_files/fin
 +-------------------------------------------------------------+-----------------------+--------------------------------+
 ; Statistic                                                   ; Top                   ; hard_block:auto_generated_inst ;
 +-------------------------------------------------------------+-----------------------+--------------------------------+
-; Logic utilization (ALMs needed / total ALMs on device)      ; 127 / 18480 ( < 1 % ) ; 0 / 18480 ( 0 % )              ;
-; ALMs needed [=A-B+C]                                        ; 127                   ; 0                              ;
-;     [A] ALMs used in final placement [=a+b+c+d]             ; 134 / 18480 ( < 1 % ) ; 0 / 18480 ( 0 % )              ;
+; Logic utilization (ALMs needed / total ALMs on device)      ; 126 / 18480 ( < 1 % ) ; 0 / 18480 ( 0 % )              ;
+; ALMs needed [=A-B+C]                                        ; 126                   ; 0                              ;
+;     [A] ALMs used in final placement [=a+b+c+d]             ; 137 / 18480 ( < 1 % ) ; 0 / 18480 ( 0 % )              ;
 ;         [a] ALMs used for LUT logic and registers           ; 47                    ; 0                              ;
-;         [b] ALMs used for LUT logic                         ; 83                    ; 0                              ;
+;         [b] ALMs used for LUT logic                         ; 86                    ; 0                              ;
 ;         [c] ALMs used for registers                         ; 4                     ; 0                              ;
 ;         [d] ALMs used for memory (up to half of total ALMs) ; 0                     ; 0                              ;
-;     [B] Estimate of ALMs recoverable by dense packing       ; 7 / 18480 ( < 1 % )   ; 0 / 18480 ( 0 % )              ;
+;     [B] Estimate of ALMs recoverable by dense packing       ; 11 / 18480 ( < 1 % )  ; 0 / 18480 ( 0 % )              ;
 ;     [C] Estimate of ALMs unavailable [=a+b+c+d]             ; 0 / 18480 ( 0 % )     ; 0 / 18480 ( 0 % )              ;
 ;         [a] Due to location constrained logic               ; 0                     ; 0                              ;
 ;         [b] Due to LAB-wide signal conflicts                ; 0                     ; 0                              ;
@@ -342,8 +337,8 @@ The pin-out file can be found in C:/intelFPGA_lite/guess_number/output_files/fin
 ;                                                             ;                       ;                                ;
 ; Difficulty packing design                                   ; Low                   ; Low                            ;
 ;                                                             ;                       ;                                ;
-; Total LABs:  partially or completely used                   ; 19 / 1848 ( 1 % )     ; 0 / 1848 ( 0 % )               ;
-;     -- Logic LABs                                           ; 19                    ; 0                              ;
+; Total LABs:  partially or completely used                   ; 25 / 1848 ( 1 % )     ; 0 / 1848 ( 0 % )               ;
+;     -- Logic LABs                                           ; 25                    ; 0                              ;
 ;     -- Memory LABs (up to half of total LABs)               ; 0                     ; 0                              ;
 ;                                                             ;                       ;                                ;
 ; Combinational ALUT usage for logic                          ; 225                   ; 0                              ;
@@ -352,7 +347,7 @@ The pin-out file can be found in C:/intelFPGA_lite/guess_number/output_files/fin
 ;     -- 5 input functions                                    ; 38                    ; 0                              ;
 ;     -- 4 input functions                                    ; 38                    ; 0                              ;
 ;     -- <=3 input functions                                  ; 122                   ; 0                              ;
-; Combinational ALUT usage for route-throughs                 ; 0                     ; 0                              ;
+; Combinational ALUT usage for route-throughs                 ; 4                     ; 0                              ;
 ; Memory ALUT usage                                           ; 0                     ; 0                              ;
 ;     -- 64-address deep                                      ; 0                     ; 0                              ;
 ;     -- 32-address deep                                      ; 0                     ; 0                              ;
@@ -360,14 +355,14 @@ The pin-out file can be found in C:/intelFPGA_lite/guess_number/output_files/fin
 ; Dedicated logic registers                                   ; 0                     ; 0                              ;
 ;     -- By type:                                             ;                       ;                                ;
 ;         -- Primary logic registers                          ; 100 / 36960 ( < 1 % ) ; 0 / 36960 ( 0 % )              ;
-;         -- Secondary logic registers                        ; 33 / 36960 ( < 1 % )  ; 0 / 36960 ( 0 % )              ;
+;         -- Secondary logic registers                        ; 28 / 36960 ( < 1 % )  ; 0 / 36960 ( 0 % )              ;
 ;     -- By function:                                         ;                       ;                                ;
 ;         -- Design implementation registers                  ; 100                   ; 0                              ;
-;         -- Routing optimization registers                   ; 33                    ; 0                              ;
+;         -- Routing optimization registers                   ; 28                    ; 0                              ;
 ;                                                             ;                       ;                                ;
 ;                                                             ;                       ;                                ;
 ; Virtual pins                                                ; 0                     ; 0                              ;
-; I/O pins                                                    ; 81                    ; 0                              ;
+; I/O pins                                                    ; 76                    ; 0                              ;
 ; I/O registers                                               ; 0                     ; 0                              ;
 ; Total block memory bits                                     ; 0                     ; 0                              ;
 ; Total block memory implementation bits                      ; 0                     ; 0                              ;
@@ -380,7 +375,7 @@ The pin-out file can be found in C:/intelFPGA_lite/guess_number/output_files/fin
 ;     -- Registered Output Connections                        ; 0                     ; 0                              ;
 ;                                                             ;                       ;                                ;
 ; Internal Connections                                        ;                       ;                                ;
-;     -- Total Connections                                    ; 1433                  ; 0                              ;
+;     -- Total Connections                                    ; 1412                  ; 0                              ;
 ;     -- Registered Connections                               ; 378                   ; 0                              ;
 ;                                                             ;                       ;                                ;
 ; External Connections                                        ;                       ;                                ;
@@ -388,7 +383,7 @@ The pin-out file can be found in C:/intelFPGA_lite/guess_number/output_files/fin
 ;     -- hard_block:auto_generated_inst                       ; 0                     ; 0                              ;
 ;                                                             ;                       ;                                ;
 ; Partition Interface                                         ;                       ;                                ;
-;     -- Input Ports                                          ; 18                    ; 0                              ;
+;     -- Input Ports                                          ; 13                    ; 0                              ;
 ;     -- Output Ports                                         ; 63                    ; 0                              ;
 ;     -- Bidir Ports                                          ; 0                     ; 0                              ;
 ;                                                             ;                       ;                                ;
@@ -413,11 +408,7 @@ The pin-out file can be found in C:/intelFPGA_lite/guess_number/output_files/fin
 +--------------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+-----------------+----------+--------------+--------------+-------------+---------------------------+----------------------+-----------+
 ; Name         ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination ; Termination Control Block ; Location assigned by ; Slew Rate ;
 +--------------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+-----------------+----------+--------------+--------------+-------------+---------------------------+----------------------+-----------+
-; clk          ; M9    ; 3B       ; 22           ; 0            ; 0            ; 99                    ; 0                  ; yes    ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
-; digit[0]     ; V13   ; 4A       ; 33           ; 0            ; 57           ; 0                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
-; digit[1]     ; T13   ; 4A       ; 34           ; 0            ; 0            ; 0                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
-; digit[2]     ; T12   ; 4A       ; 34           ; 0            ; 17           ; 0                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
-; digit[3]     ; AA15  ; 4A       ; 36           ; 0            ; 34           ; 0                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
+; clk          ; M9    ; 3B       ; 22           ; 0            ; 0            ; 94                    ; 0                  ; yes    ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
 ; digit_1      ; U7    ; 3A       ; 10           ; 0            ; 91           ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
 ; digit_2      ; W9    ; 3A       ; 11           ; 0            ; 34           ; 2                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
 ; digit_3      ; M7    ; 3A       ; 14           ; 0            ; 0            ; 3                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
@@ -426,10 +417,9 @@ The pin-out file can be found in C:/intelFPGA_lite/guess_number/output_files/fin
 ; keypadCol[1] ; G15   ; 7A       ; 43           ; 45           ; 34           ; 5                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
 ; keypadCol[2] ; G12   ; 7A       ; 34           ; 45           ; 17           ; 5                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
 ; keypadCol[3] ; K16   ; 7A       ; 44           ; 45           ; 51           ; 5                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
-; match        ; AB15  ; 4A       ; 36           ; 0            ; 51           ; 35                    ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
-; rst          ; P22   ; 5A       ; 54           ; 16           ; 54           ; 131                   ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
-; seven_reset  ; AA13  ; 4A       ; 34           ; 0            ; 34           ; 0                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
-; show         ; AA14  ; 4A       ; 34           ; 0            ; 51           ; 28                    ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
+; match        ; V13   ; 4A       ; 33           ; 0            ; 57           ; 35                    ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
+; rst          ; P22   ; 5A       ; 54           ; 16           ; 54           ; 126                   ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
+; show         ; T13   ; 4A       ; 34           ; 0            ; 0            ; 28                    ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
 ; state        ; U13   ; 4A       ; 33           ; 0            ; 40           ; 14                    ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
 +--------------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+-----------------+----------+--------------+--------------+-------------+---------------------------+----------------------+-----------+
 
@@ -513,7 +503,7 @@ The pin-out file can be found in C:/intelFPGA_lite/guess_number/output_files/fin
 ; 2A       ; 2 / 16 ( 13 % )  ; 2.5V          ; --           ; 2.5V          ;
 ; 3A       ; 4 / 16 ( 25 % )  ; 2.5V          ; --           ; 2.5V          ;
 ; 3B       ; 4 / 32 ( 13 % )  ; 2.5V          ; --           ; 2.5V          ;
-; 4A       ; 38 / 48 ( 79 % ) ; 2.5V          ; --           ; 2.5V          ;
+; 4A       ; 33 / 48 ( 69 % ) ; 2.5V          ; --           ; 2.5V          ;
 ; 5A       ; 1 / 16 ( 6 % )   ; 2.5V          ; --           ; 2.5V          ;
 ; 5B       ; 0 / 16 ( 0 % )   ; 2.5V          ; --           ; 2.5V          ;
 ; 7A       ; 32 / 48 ( 67 % ) ; 2.5V          ; --           ; 2.5V          ;
@@ -560,9 +550,9 @@ The pin-out file can be found in C:/intelFPGA_lite/guess_number/output_files/fin
 ; AA10     ; 87         ; 3B       ; o3[2]                           ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
 ; AA11     ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; AA12     ; 105        ; 3B       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
-; AA13     ; 113        ; 4A       ; seven_reset                     ; input  ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
-; AA14     ; 111        ; 4A       ; show                            ; input  ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
-; AA15     ; 116        ; 4A       ; digit[3]                        ; input  ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
+; AA13     ; 113        ; 4A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
+; AA14     ; 111        ; 4A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
+; AA15     ; 116        ; 4A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AA16     ;            ; 4A       ; VCCIO4A                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
 ; AA17     ; 127        ; 4A       ; o2[5]                           ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
 ; AA18     ; 129        ; 4A       ; o2[3]                           ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
@@ -584,7 +574,7 @@ The pin-out file can be found in C:/intelFPGA_lite/guess_number/output_files/fin
 ; AB12     ; 108        ; 4A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AB13     ; 106        ; 4A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AB14     ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
-; AB15     ; 114        ; 4A       ; match                           ; input  ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
+; AB15     ; 114        ; 4A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AB16     ;            ; 4A       ; VREFB4AN0                       ; power  ;              ;                     ; --           ;                 ; --       ; --           ;
 ; AB17     ; 119        ; 4A       ; o3[1]                           ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
 ; AB18     ; 121        ; 4A       ; o2[4]                           ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
@@ -911,8 +901,8 @@ The pin-out file can be found in C:/intelFPGA_lite/guess_number/output_files/fin
 ; T9       ; 83         ; 3B       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; T10      ; 91         ; 3B       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; T11      ;            ; 3B       ; VCCIO3B                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
-; T12      ; 110        ; 4A       ; digit[2]                        ; input  ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
-; T13      ; 112        ; 4A       ; digit[1]                        ; input  ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
+; T12      ; 110        ; 4A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
+; T13      ; 112        ; 4A       ; show                            ; input  ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
 ; T14      ; 126        ; 4A       ; o5[2]                           ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
 ; T15      ; 159        ; 5A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Row I/O      ;                 ; no       ; On           ;
 ; T16      ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
@@ -956,7 +946,7 @@ The pin-out file can be found in C:/intelFPGA_lite/guess_number/output_files/fin
 ; V10      ; 77         ; 3B       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; V11      ;            ;          ; NC                              ;        ;              ;                     ; --           ;                 ; --       ; --           ;
 ; V12      ;            ;          ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
-; V13      ; 107        ; 4A       ; digit[0]                        ; input  ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
+; V13      ; 107        ; 4A       ; match                           ; input  ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
 ; V14      ; 118        ; 4A       ; o3[4]                           ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
 ; V15      ; 120        ; 4A       ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; V16      ; 134        ; 4A       ; o4[3]                           ; output ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
@@ -1019,11 +1009,6 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +--------------+-------------------------------+
 ; Pin Name     ; Reason                        ;
 +--------------+-------------------------------+
-; seven_reset  ; Incomplete set of assignments ;
-; digit[0]     ; Incomplete set of assignments ;
-; digit[1]     ; Incomplete set of assignments ;
-; digit[2]     ; Incomplete set of assignments ;
-; digit[3]     ; Incomplete set of assignments ;
 ; keypadRow[0] ; Incomplete set of assignments ;
 ; keypadRow[1] ; Incomplete set of assignments ;
 ; keypadRow[2] ; Incomplete set of assignments ;
@@ -1108,14 +1093,14 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +----------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+------------------------------+-------------------+--------------+
 ; Compilation Hierarchy Node ; ALMs needed [=A-B+C] ; [A] ALMs used in final placement ; [B] Estimate of ALMs recoverable by dense packing ; [C] Estimate of ALMs unavailable ; ALMs used for memory ; Combinational ALUTs ; Dedicated Logic Registers ; I/O Registers ; Block Memory Bits ; M10Ks ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name          ; Entity Name       ; Library Name ;
 +----------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+------------------------------+-------------------+--------------+
-; |final                     ; 126.5 (0.5)          ; 132.5 (0.5)                      ; 6.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 225 (1)             ; 133 (0)                   ; 0 (0)         ; 0                 ; 0     ; 0          ; 81   ; 0            ; |final                       ; final             ; work         ;
+; |final                     ; 126.0 (0.5)          ; 135.5 (0.5)                      ; 9.5 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 225 (1)             ; 128 (0)                   ; 0 (0)         ; 0                 ; 0     ; 0          ; 76   ; 0            ; |final                       ; final             ; work         ;
 ;    |Checkkeypad:cp|        ; 7.7 (7.7)            ; 7.8 (7.8)                        ; 0.2 (0.2)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 10 (10)             ; 8 (8)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |final|Checkkeypad:cp        ; Checkkeypad       ; work         ;
-;    |Controller:md|         ; 18.0 (18.0)          ; 18.0 (18.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 43 (43)             ; 2 (2)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |final|Controller:md         ; Controller        ; work         ;
-;    |DotMatrix:dm|          ; 14.2 (14.2)          ; 17.9 (17.9)                      ; 3.8 (3.8)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 25 (25)             ; 24 (24)                   ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |final|DotMatrix:dm          ; DotMatrix         ; work         ;
-;    |FrequencyDivider2:fd2| ; 23.0 (23.0)          ; 23.0 (23.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 50 (50)                   ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |final|FrequencyDivider2:fd2 ; FrequencyDivider2 ; work         ;
-;    |FrequencyDivider:fd|   ; 22.7 (22.7)          ; 23.0 (23.0)                      ; 0.3 (0.3)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 49 (49)                   ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |final|FrequencyDivider:fd   ; FrequencyDivider  ; work         ;
-;    |Match:mt|              ; 30.3 (30.3)          ; 33.2 (33.2)                      ; 2.8 (2.8)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 49 (49)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |final|Match:mt              ; Match             ; work         ;
-;    |SevenDisplay:sd|       ; 9.1 (9.1)            ; 9.1 (9.1)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 17 (17)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |final|SevenDisplay:sd       ; SevenDisplay      ; work         ;
+;    |Controller:md|         ; 17.8 (17.8)          ; 17.8 (17.8)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 43 (43)             ; 2 (2)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |final|Controller:md         ; Controller        ; work         ;
+;    |DotMatrix:dm|          ; 14.2 (14.2)          ; 19.5 (19.5)                      ; 5.3 (5.3)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 25 (25)             ; 24 (24)                   ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |final|DotMatrix:dm          ; DotMatrix         ; work         ;
+;    |FrequencyDivider2:fd2| ; 23.3 (23.3)          ; 23.5 (23.5)                      ; 0.2 (0.2)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 53 (53)                   ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |final|FrequencyDivider2:fd2 ; FrequencyDivider2 ; work         ;
+;    |FrequencyDivider:fd|   ; 22.7 (22.7)          ; 23.5 (23.5)                      ; 0.8 (0.8)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 41 (41)                   ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |final|FrequencyDivider:fd   ; FrequencyDivider  ; work         ;
+;    |Match:mt|              ; 30.2 (30.2)          ; 32.8 (32.8)                      ; 2.7 (2.7)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 49 (49)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |final|Match:mt              ; Match             ; work         ;
+;    |SevenDisplay:sd|       ; 9.3 (9.3)            ; 10.0 (10.0)                      ; 0.7 (0.7)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 17 (17)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |final|SevenDisplay:sd       ; SevenDisplay      ; work         ;
 +----------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+------------------------------+-------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -1125,11 +1110,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------+----------+----+------+------+----+------+-------+--------+------------------------+--------------------------+
 ; Name         ; Pin Type ; D1 ; D3_0 ; D3_1 ; D4 ; D5   ; D5 OE ; D5 OCT ; T11 (Postamble Gating) ; T11 (Postamble Ungating) ;
 +--------------+----------+----+------+------+----+------+-------+--------+------------------------+--------------------------+
-; seven_reset  ; Input    ; -- ; --   ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; digit[0]     ; Input    ; -- ; --   ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; digit[1]     ; Input    ; -- ; --   ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; digit[2]     ; Input    ; -- ; --   ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; digit[3]     ; Input    ; -- ; --   ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; keypadRow[0] ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
 ; keypadRow[1] ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
 ; keypadRow[2] ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
@@ -1196,12 +1176,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; match        ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; show         ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; rst          ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; state        ; Input    ; -- ; (0)  ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; state        ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; keypadCol[1] ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; keypadCol[2] ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; keypadCol[3] ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; keypadCol[0] ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
-; clk          ; Input    ; -- ; (0)  ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
+; clk          ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; digit_4      ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; digit_3      ; Input    ; -- ; (0)  ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; digit_2      ; Input    ; -- ; --   ; (0)  ; -- ; --   ; --    ; --     ; --                     ; --                       ;
@@ -1214,11 +1194,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------------------------------------+-------------------+---------+
 ; Source Pin / Fanout                              ; Pad To Core Index ; Setting ;
 +--------------------------------------------------+-------------------+---------+
-; seven_reset                                      ;                   ;         ;
-; digit[0]                                         ;                   ;         ;
-; digit[1]                                         ;                   ;         ;
-; digit[2]                                         ;                   ;         ;
-; digit[3]                                         ;                   ;         ;
 ; match                                            ;                   ;         ;
 ;      - DotMatrix:dm|dot_col2[1]                  ; 0                 ; 0       ;
 ;      - DotMatrix:dm|dot_col2[2]                  ; 0                 ; 0       ;
@@ -1383,22 +1358,15 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - DotMatrix:dm|row_count[0]                 ; 1                 ; 0       ;
 ;      - DotMatrix:dm|row_count[1]                 ; 1                 ; 0       ;
 ;      - FrequencyDivider2:fd2|clk_div             ; 1                 ; 0       ;
-;      - FrequencyDivider:fd|count[4]~DUPLICATE    ; 1                 ; 0       ;
-;      - FrequencyDivider:fd|count[5]~DUPLICATE    ; 1                 ; 0       ;
-;      - FrequencyDivider:fd|count[6]~DUPLICATE    ; 1                 ; 0       ;
+;      - FrequencyDivider:fd|count[11]~DUPLICATE   ; 1                 ; 0       ;
 ;      - FrequencyDivider:fd|count[7]~DUPLICATE    ; 1                 ; 0       ;
 ;      - FrequencyDivider:fd|count[8]~DUPLICATE    ; 1                 ; 0       ;
 ;      - FrequencyDivider:fd|count[9]~DUPLICATE    ; 1                 ; 0       ;
-;      - FrequencyDivider:fd|count[16]~DUPLICATE   ; 1                 ; 0       ;
-;      - FrequencyDivider:fd|count[15]~DUPLICATE   ; 1                 ; 0       ;
-;      - FrequencyDivider:fd|count[0]~DUPLICATE    ; 1                 ; 0       ;
-;      - FrequencyDivider:fd|count[1]~DUPLICATE    ; 1                 ; 0       ;
-;      - FrequencyDivider:fd|count[3]~DUPLICATE    ; 1                 ; 0       ;
-;      - FrequencyDivider:fd|count[27]~DUPLICATE   ; 1                 ; 0       ;
-;      - FrequencyDivider:fd|count[26]~DUPLICATE   ; 1                 ; 0       ;
-;      - FrequencyDivider:fd|count[25]~DUPLICATE   ; 1                 ; 0       ;
-;      - FrequencyDivider:fd|count[24]~DUPLICATE   ; 1                 ; 0       ;
-;      - FrequencyDivider:fd|count[23]~DUPLICATE   ; 1                 ; 0       ;
+;      - FrequencyDivider:fd|count[22]~DUPLICATE   ; 1                 ; 0       ;
+;      - FrequencyDivider:fd|count[17]~DUPLICATE   ; 1                 ; 0       ;
+;      - FrequencyDivider:fd|count[12]~DUPLICATE   ; 1                 ; 0       ;
+;      - FrequencyDivider:fd|count[29]~DUPLICATE   ; 1                 ; 0       ;
+;      - FrequencyDivider2:fd2|count[28]~DUPLICATE ; 1                 ; 0       ;
 ;      - FrequencyDivider2:fd2|count[3]~DUPLICATE  ; 1                 ; 0       ;
 ;      - FrequencyDivider2:fd2|count[1]~DUPLICATE  ; 1                 ; 0       ;
 ;      - FrequencyDivider2:fd2|count[0]~DUPLICATE  ; 1                 ; 0       ;
@@ -1409,8 +1377,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - FrequencyDivider2:fd2|count[7]~DUPLICATE  ; 1                 ; 0       ;
 ;      - FrequencyDivider2:fd2|count[6]~DUPLICATE  ; 1                 ; 0       ;
 ;      - FrequencyDivider2:fd2|count[5]~DUPLICATE  ; 1                 ; 0       ;
+;      - FrequencyDivider2:fd2|count[21]~DUPLICATE ; 1                 ; 0       ;
 ;      - FrequencyDivider2:fd2|count[19]~DUPLICATE ; 1                 ; 0       ;
 ;      - FrequencyDivider2:fd2|count[18]~DUPLICATE ; 1                 ; 0       ;
+;      - FrequencyDivider2:fd2|count[17]~DUPLICATE ; 1                 ; 0       ;
 ;      - FrequencyDivider2:fd2|count[16]~DUPLICATE ; 1                 ; 0       ;
 ;      - FrequencyDivider2:fd2|count[15]~DUPLICATE ; 1                 ; 0       ;
 ;      - FrequencyDivider2:fd2|count[13]~DUPLICATE ; 1                 ; 0       ;
@@ -1420,13 +1390,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - Controller:md|q1[3]~0                     ; 0                 ; 0       ;
 ;      - Controller:md|a1[3]~0                     ; 0                 ; 0       ;
 ;      - Controller:md|q2[3]~0                     ; 0                 ; 0       ;
-;      - Controller:md|a2[3]~0                     ; 1                 ; 0       ;
-;      - Controller:md|a4[3]~0                     ; 1                 ; 0       ;
-;      - Controller:md|q4[3]~0                     ; 1                 ; 0       ;
-;      - Controller:md|a3[3]~0                     ; 1                 ; 0       ;
-;      - Controller:md|q3[3]~0                     ; 1                 ; 0       ;
-;      - DotMatrix:dm|dot_col1~1                   ; 1                 ; 0       ;
-;      - DotMatrix:dm|dot_col1~2                   ; 1                 ; 0       ;
+;      - Controller:md|a2[3]~0                     ; 0                 ; 0       ;
+;      - Controller:md|a4[3]~0                     ; 0                 ; 0       ;
+;      - Controller:md|q4[3]~0                     ; 0                 ; 0       ;
+;      - Controller:md|a3[3]~0                     ; 0                 ; 0       ;
+;      - Controller:md|q3[3]~0                     ; 0                 ; 0       ;
+;      - DotMatrix:dm|dot_col1~1                   ; 0                 ; 0       ;
+;      - DotMatrix:dm|dot_col1~2                   ; 0                 ; 0       ;
 ;      - DotMatrix:dm|dot_col1~4                   ; 0                 ; 0       ;
 ;      - DotMatrix:dm|dot_col1~8                   ; 0                 ; 0       ;
 ;      - DotMatrix:dm|dot_col1~12                  ; 0                 ; 0       ;
@@ -1452,8 +1422,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; keypadCol[0]                                     ;                   ;         ;
 ;      - Checkkeypad:cp|keypadBuf[0]~0             ; 1                 ; 0       ;
 ; clk                                              ;                   ;         ;
-;      - FrequencyDivider:fd|clk_div               ; 1                 ; 0       ;
-;      - FrequencyDivider2:fd2|clk_div             ; 1                 ; 0       ;
+;      - FrequencyDivider:fd|clk_div               ; 0                 ; 0       ;
+;      - FrequencyDivider2:fd2|clk_div             ; 0                 ; 0       ;
 ; digit_4                                          ;                   ;         ;
 ;      - Controller:md|next_state[0]~0             ; 0                 ; 0       ;
 ;      - Controller:md|digit_state[0]~0            ; 0                 ; 0       ;
@@ -1475,24 +1445,24 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------------------+---------------------+---------+-------------------------+--------+----------------------+------------------+---------------------------+
 ; Name                           ; Location            ; Fan-Out ; Usage                   ; Global ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +--------------------------------+---------------------+---------+-------------------------+--------+----------------------+------------------+---------------------------+
-; Checkkeypad:cp|keypadBuf[0]~1  ; LABCELL_X40_Y5_N48  ; 4       ; Clock enable            ; no     ; --                   ; --               ; --                        ;
-; Controller:md|a1[3]~0          ; LABCELL_X40_Y5_N51  ; 4       ; Latch enable            ; no     ; --                   ; --               ; --                        ;
-; Controller:md|a2[3]~0          ; LABCELL_X41_Y3_N30  ; 4       ; Latch enable            ; no     ; --                   ; --               ; --                        ;
-; Controller:md|a3[3]~0          ; LABCELL_X41_Y4_N18  ; 4       ; Latch enable            ; no     ; --                   ; --               ; --                        ;
-; Controller:md|a4[3]~0          ; LABCELL_X41_Y4_N6   ; 4       ; Latch enable            ; no     ; --                   ; --               ; --                        ;
-; Controller:md|digit_state[0]~0 ; LABCELL_X20_Y4_N45  ; 2       ; Clock enable            ; no     ; --                   ; --               ; --                        ;
-; Controller:md|q1[3]~0          ; LABCELL_X40_Y5_N54  ; 4       ; Latch enable            ; no     ; --                   ; --               ; --                        ;
-; Controller:md|q2[3]~0          ; LABCELL_X40_Y3_N33  ; 4       ; Latch enable            ; no     ; --                   ; --               ; --                        ;
-; Controller:md|q3[3]~0          ; LABCELL_X41_Y4_N42  ; 4       ; Latch enable            ; no     ; --                   ; --               ; --                        ;
-; Controller:md|q4[3]~0          ; LABCELL_X41_Y4_N39  ; 4       ; Latch enable            ; no     ; --                   ; --               ; --                        ;
-; FrequencyDivider2:fd2|Equal0~6 ; MLABCELL_X37_Y5_N36 ; 50      ; Sync. clear             ; no     ; --                   ; --               ; --                        ;
-; FrequencyDivider2:fd2|clk_div  ; FF_X39_Y5_N20       ; 25      ; Clock                   ; no     ; --                   ; --               ; --                        ;
-; FrequencyDivider:fd|Equal0~6   ; LABCELL_X41_Y7_N42  ; 49      ; Sync. clear             ; no     ; --                   ; --               ; --                        ;
-; FrequencyDivider:fd|clk_div    ; FF_X41_Y7_N47       ; 11      ; Clock                   ; no     ; --                   ; --               ; --                        ;
+; Checkkeypad:cp|keypadBuf[0]~1  ; LABCELL_X40_Y7_N54  ; 4       ; Clock enable            ; no     ; --                   ; --               ; --                        ;
+; Controller:md|a1[3]~0          ; LABCELL_X41_Y6_N36  ; 4       ; Latch enable            ; no     ; --                   ; --               ; --                        ;
+; Controller:md|a2[3]~0          ; LABCELL_X41_Y7_N33  ; 4       ; Latch enable            ; no     ; --                   ; --               ; --                        ;
+; Controller:md|a3[3]~0          ; LABCELL_X41_Y7_N27  ; 4       ; Latch enable            ; no     ; --                   ; --               ; --                        ;
+; Controller:md|a4[3]~0          ; LABCELL_X39_Y5_N27  ; 4       ; Latch enable            ; no     ; --                   ; --               ; --                        ;
+; Controller:md|digit_state[0]~0 ; LABCELL_X20_Y4_N42  ; 2       ; Clock enable            ; no     ; --                   ; --               ; --                        ;
+; Controller:md|q1[3]~0          ; LABCELL_X41_Y6_N33  ; 4       ; Latch enable            ; no     ; --                   ; --               ; --                        ;
+; Controller:md|q2[3]~0          ; LABCELL_X41_Y5_N39  ; 4       ; Latch enable            ; no     ; --                   ; --               ; --                        ;
+; Controller:md|q3[3]~0          ; LABCELL_X41_Y7_N36  ; 4       ; Latch enable            ; no     ; --                   ; --               ; --                        ;
+; Controller:md|q4[3]~0          ; LABCELL_X39_Y5_N0   ; 4       ; Latch enable            ; no     ; --                   ; --               ; --                        ;
+; FrequencyDivider2:fd2|Equal0~6 ; LABCELL_X48_Y13_N48 ; 53      ; Sync. clear             ; no     ; --                   ; --               ; --                        ;
+; FrequencyDivider2:fd2|clk_div  ; FF_X47_Y7_N5        ; 25      ; Clock                   ; no     ; --                   ; --               ; --                        ;
+; FrequencyDivider:fd|Equal0~6   ; LABCELL_X48_Y11_N42 ; 41      ; Sync. clear             ; no     ; --                   ; --               ; --                        ;
+; FrequencyDivider:fd|clk_div    ; FF_X41_Y11_N29      ; 11      ; Clock                   ; no     ; --                   ; --               ; --                        ;
 ; clk                            ; PIN_M9              ; 3       ; Clock                   ; no     ; --                   ; --               ; --                        ;
-; clk                            ; PIN_M9              ; 97      ; Clock                   ; yes    ; Global Clock         ; GCLK6            ; --                        ;
-; match                          ; PIN_AB15            ; 35      ; Sync. clear, Sync. load ; no     ; --                   ; --               ; --                        ;
-; rst                            ; PIN_P22             ; 131     ; Async. clear            ; no     ; --                   ; --               ; --                        ;
+; clk                            ; PIN_M9              ; 92      ; Clock                   ; yes    ; Global Clock         ; GCLK6            ; --                        ;
+; match                          ; PIN_V13             ; 35      ; Sync. clear, Sync. load ; no     ; --                   ; --               ; --                        ;
+; rst                            ; PIN_P22             ; 126     ; Async. clear            ; no     ; --                   ; --               ; --                        ;
 +--------------------------------+---------------------+---------+-------------------------+--------+----------------------+------------------+---------------------------+
 
 
@@ -1501,7 +1471,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------+----------+---------+----------------------+------------------+---------------------------+
 ; Name ; Location ; Fan-Out ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +------+----------+---------+----------------------+------------------+---------------------------+
-; clk  ; PIN_M9   ; 97      ; Global Clock         ; GCLK6            ; --                        ;
+; clk  ; PIN_M9   ; 92      ; Global Clock         ; GCLK6            ; --                        ;
 +------+----------+---------+----------------------+------------------+---------------------------+
 
 
@@ -1510,21 +1480,21 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------------+-------------------------+
 ; Routing Resource Type        ; Usage                   ;
 +------------------------------+-------------------------+
-; Block interconnects          ; 390 / 140,056 ( < 1 % ) ;
-; C12 interconnects            ; 47 / 6,048 ( < 1 % )    ;
-; C2 interconnects             ; 134 / 54,648 ( < 1 % )  ;
-; C4 interconnects             ; 286 / 25,920 ( 1 % )    ;
+; Block interconnects          ; 375 / 140,056 ( < 1 % ) ;
+; C12 interconnects            ; 71 / 6,048 ( 1 % )      ;
+; C2 interconnects             ; 122 / 54,648 ( < 1 % )  ;
+; C4 interconnects             ; 260 / 25,920 ( 1 % )    ;
 ; DQS bus muxes                ; 0 / 17 ( 0 % )          ;
 ; DQS-18 I/O buses             ; 0 / 17 ( 0 % )          ;
 ; DQS-9 I/O buses              ; 0 / 17 ( 0 % )          ;
-; Direct links                 ; 77 / 140,056 ( < 1 % )  ;
+; Direct links                 ; 68 / 140,056 ( < 1 % )  ;
 ; Global clocks                ; 1 / 16 ( 6 % )          ;
-; Local interconnects          ; 128 / 36,960 ( < 1 % )  ;
+; Local interconnects          ; 132 / 36,960 ( < 1 % )  ;
 ; Quadrant clocks              ; 0 / 88 ( 0 % )          ;
-; R14 interconnects            ; 96 / 5,984 ( 2 % )      ;
-; R14/C12 interconnect drivers ; 132 / 9,504 ( 1 % )     ;
-; R3 interconnects             ; 209 / 60,192 ( < 1 % )  ;
-; R6 interconnects             ; 228 / 127,072 ( < 1 % ) ;
+; R14 interconnects            ; 98 / 5,984 ( 2 % )      ;
+; R14/C12 interconnect drivers ; 155 / 9,504 ( 2 % )     ;
+; R3 interconnects             ; 213 / 60,192 ( < 1 % )  ;
+; R6 interconnects             ; 190 / 127,072 ( < 1 % ) ;
 ; Spine clocks                 ; 1 / 120 ( < 1 % )       ;
 ; Wire stub REs                ; 0 / 7,344 ( 0 % )       ;
 +------------------------------+-------------------------+
@@ -1585,15 +1555,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+
 ; Pin/Rules          ; IO_000001 ; IO_000002    ; IO_000003 ; IO_000004    ; IO_000005    ; IO_000006 ; IO_000007 ; IO_000008    ; IO_000009 ; IO_000010 ; IO_000011    ; IO_000012    ; IO_000013    ; IO_000014    ; IO_000015    ; IO_000018    ; IO_000019    ; IO_000020    ; IO_000021    ; IO_000022    ; IO_000023    ; IO_000024    ; IO_000026    ; IO_000027    ; IO_000045    ; IO_000046    ; IO_000047    ; IO_000034    ;
 +--------------------+-----------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+
-; Total Pass         ; 81        ; 0            ; 81        ; 0            ; 0            ; 81        ; 81        ; 0            ; 81        ; 81        ; 0            ; 63           ; 0            ; 0            ; 0            ; 0            ; 63           ; 0            ; 0            ; 0            ; 0            ; 63           ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ;
+; Total Pass         ; 76        ; 0            ; 76        ; 0            ; 0            ; 76        ; 76        ; 0            ; 76        ; 76        ; 0            ; 63           ; 0            ; 0            ; 0            ; 0            ; 63           ; 0            ; 0            ; 0            ; 0            ; 63           ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ;
 ; Total Unchecked    ; 0         ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ;
-; Total Inapplicable ; 0         ; 81           ; 0         ; 81           ; 81           ; 0         ; 0         ; 81           ; 0         ; 0         ; 81           ; 18           ; 81           ; 81           ; 81           ; 81           ; 18           ; 81           ; 81           ; 81           ; 81           ; 18           ; 81           ; 81           ; 81           ; 81           ; 81           ; 81           ;
+; Total Inapplicable ; 0         ; 76           ; 0         ; 76           ; 76           ; 0         ; 0         ; 76           ; 0         ; 0         ; 76           ; 13           ; 76           ; 76           ; 76           ; 76           ; 13           ; 76           ; 76           ; 76           ; 76           ; 13           ; 76           ; 76           ; 76           ; 76           ; 76           ; 76           ;
 ; Total Fail         ; 0         ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ;
-; seven_reset        ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; digit[0]           ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; digit[1]           ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; digit[2]           ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; digit[3]           ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; keypadRow[0]       ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; keypadRow[1]       ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; keypadRow[2]       ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
@@ -1721,11 +1686,11 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------------------------------+-------------------------------+-------------------+
 ; Source Clock(s)               ; Destination Clock(s)          ; Delay Added in ns ;
 +-------------------------------+-------------------------------+-------------------+
-; FrequencyDivider:fd|clk_div   ; state                         ; 150.1             ;
-; FrequencyDivider2:fd2|clk_div ; FrequencyDivider2:fd2|clk_div ; 51.8              ;
-; FrequencyDivider:fd|clk_div   ; FrequencyDivider2:fd2|clk_div ; 11.6              ;
-; clk                           ; clk                           ; 11.3              ;
-; FrequencyDivider:fd|clk_div   ; FrequencyDivider:fd|clk_div   ; 10.5              ;
+; FrequencyDivider:fd|clk_div   ; state                         ; 138.4             ;
+; FrequencyDivider2:fd2|clk_div ; FrequencyDivider2:fd2|clk_div ; 44.8              ;
+; FrequencyDivider:fd|clk_div   ; FrequencyDivider:fd|clk_div   ; 16.8              ;
+; FrequencyDivider:fd|clk_div   ; FrequencyDivider2:fd2|clk_div ; 12.6              ;
+; clk                           ; clk                           ; 12.2              ;
 +-------------------------------+-------------------------------+-------------------+
 Note: For more information on problematic transfers, consider running the Fitter again with the Optimize hold timing option (Settings Menu) turned off.
 This will disable optimization of problematic paths and expose them for further analysis using the Timing Analyzer.
@@ -1736,91 +1701,91 @@ This will disable optimization of problematic paths and expose them for further 
 +---------------------------------+-------------------------------+-------------------+
 ; Source Register                 ; Destination Register          ; Delay Added in ns ;
 +---------------------------------+-------------------------------+-------------------+
-; FrequencyDivider:fd|clk_div     ; FrequencyDivider:fd|clk_div   ; 5.813             ;
-; FrequencyDivider2:fd2|clk_div   ; FrequencyDivider2:fd2|clk_div ; 5.441             ;
-; Checkkeypad:cp|keypadBuf[0]     ; Controller:md|a3[0]           ; 4.998             ;
-; Checkkeypad:cp|keypadBuf[2]     ; Controller:md|q4[2]           ; 4.978             ;
-; Checkkeypad:cp|keypadBuf[1]     ; Controller:md|q4[1]           ; 4.978             ;
-; Checkkeypad:cp|keypadBuf[3]     ; Controller:md|q1[3]           ; 4.974             ;
-; FrequencyDivider:fd|count[31]   ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[30]   ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[29]   ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[28]   ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[27]   ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[26]   ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[25]   ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[24]   ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[22]   ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[21]   ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[20]   ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[19]   ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[18]   ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[17]   ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[16]   ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[15]   ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[23]   ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[13]   ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[12]   ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[11]   ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[10]   ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[9]    ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[8]    ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[7]    ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[6]    ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[5]    ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[4]    ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[3]    ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[2]    ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[1]    ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[0]    ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider:fd|count[14]   ; FrequencyDivider:fd|clk_div   ; 2.681             ;
-; FrequencyDivider2:fd2|count[30] ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[29] ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[28] ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[27] ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[26] ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[25] ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[24] ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[23] ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[31] ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[22] ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[21] ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[20] ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[19] ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[18] ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[17] ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[16] ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[15] ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[14] ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[13] ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[12] ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[10] ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[9]  ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[8]  ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[7]  ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[6]  ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[5]  ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[4]  ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[3]  ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[2]  ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[1]  ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[0]  ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; FrequencyDivider2:fd2|count[11] ; FrequencyDivider2:fd2|clk_div ; 2.469             ;
-; Checkkeypad:cp|keypadRow[1]     ; Checkkeypad:cp|keypadBuf[1]   ; 1.082             ;
-; Checkkeypad:cp|keypadRow[2]     ; Checkkeypad:cp|keypadBuf[1]   ; 1.046             ;
-; Controller:md|digit_state[0]    ; DotMatrix:dm|dot_col2[3]      ; 1.014             ;
-; Controller:md|digit_state[1]    ; DotMatrix:dm|dot_col2[2]      ; 0.991             ;
-; DotMatrix:dm|row_count[2]       ; DotMatrix:dm|dot_col1[5]      ; 0.983             ;
-; DotMatrix:dm|row_count[0]       ; DotMatrix:dm|dot_col1[5]      ; 0.977             ;
-; DotMatrix:dm|row_count[1]       ; DotMatrix:dm|dot_col1[5]      ; 0.975             ;
-; Checkkeypad:cp|keypadRow[3]     ; Checkkeypad:cp|keypadBuf[1]   ; 0.946             ;
+; FrequencyDivider:fd|clk_div     ; FrequencyDivider:fd|clk_div   ; 6.181             ;
+; FrequencyDivider2:fd2|clk_div   ; FrequencyDivider2:fd2|clk_div ; 6.057             ;
+; Checkkeypad:cp|keypadBuf[3]     ; Controller:md|q3[3]           ; 5.048             ;
+; Checkkeypad:cp|keypadBuf[1]     ; Controller:md|a3[1]           ; 4.827             ;
+; Checkkeypad:cp|keypadBuf[2]     ; Controller:md|q3[2]           ; 4.472             ;
+; Checkkeypad:cp|keypadBuf[0]     ; Controller:md|q3[0]           ; 4.472             ;
+; FrequencyDivider:fd|count[31]   ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[30]   ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[29]   ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[28]   ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[27]   ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[26]   ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[25]   ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[24]   ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[22]   ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[21]   ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[20]   ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[19]   ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[18]   ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[17]   ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[16]   ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[15]   ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[23]   ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[13]   ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[12]   ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[11]   ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[10]   ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[9]    ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[8]    ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[7]    ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[6]    ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[5]    ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[4]    ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[3]    ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[2]    ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[1]    ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[0]    ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider:fd|count[14]   ; FrequencyDivider:fd|clk_div   ; 2.688             ;
+; FrequencyDivider2:fd2|count[30] ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[29] ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[28] ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[27] ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[26] ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[25] ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[24] ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[23] ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[31] ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[22] ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[21] ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[20] ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[19] ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[18] ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[17] ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[16] ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[15] ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[14] ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[13] ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[12] ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[10] ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[9]  ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[8]  ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[7]  ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[6]  ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[5]  ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[4]  ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[3]  ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[2]  ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[1]  ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[0]  ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; FrequencyDivider2:fd2|count[11] ; FrequencyDivider2:fd2|clk_div ; 2.524             ;
+; Checkkeypad:cp|keypadRow[1]     ; Checkkeypad:cp|keypadBuf[1]   ; 1.110             ;
+; Controller:md|digit_state[0]    ; DotMatrix:dm|dot_col2[1]      ; 1.092             ;
+; Controller:md|digit_state[1]    ; DotMatrix:dm|dot_col2[4]      ; 1.091             ;
+; Checkkeypad:cp|keypadRow[2]     ; Checkkeypad:cp|keypadBuf[1]   ; 1.079             ;
+; DotMatrix:dm|row_count[0]       ; DotMatrix:dm|dot_col1[6]      ; 1.050             ;
+; Checkkeypad:cp|keypadRow[3]     ; Checkkeypad:cp|keypadBuf[1]   ; 0.973             ;
+; DotMatrix:dm|row_count[2]       ; DotMatrix:dm|dot_row[3]       ; 0.829             ;
+; DotMatrix:dm|row_count[1]       ; DotMatrix:dm|dot_row[3]       ; 0.800             ;
 ; Checkkeypad:cp|keypadRow[0]     ; Checkkeypad:cp|keypadBuf[1]   ; 0.531             ;
-; show                            ; DotMatrix:dm|row_count[2]     ; 0.271             ;
-; match                           ; DotMatrix:dm|row_count[2]     ; 0.271             ;
-; keypadCol[1]                    ; Checkkeypad:cp|keypadBuf[1]   ; 0.268             ;
-; keypadCol[2]                    ; Checkkeypad:cp|keypadBuf[1]   ; 0.268             ;
-; keypadCol[3]                    ; Checkkeypad:cp|keypadBuf[1]   ; 0.268             ;
-; keypadCol[0]                    ; Checkkeypad:cp|keypadBuf[1]   ; 0.268             ;
+; show                            ; DotMatrix:dm|row_count[2]     ; 0.295             ;
+; match                           ; DotMatrix:dm|row_count[2]     ; 0.295             ;
+; keypadCol[1]                    ; Checkkeypad:cp|keypadBuf[1]   ; 0.114             ;
+; keypadCol[2]                    ; Checkkeypad:cp|keypadBuf[1]   ; 0.114             ;
+; keypadCol[3]                    ; Checkkeypad:cp|keypadBuf[1]   ; 0.114             ;
+; keypadCol[0]                    ; Checkkeypad:cp|keypadBuf[1]   ; 0.114             ;
 +---------------------------------+-------------------------------+-------------------+
 Note: This table only shows the top 85 path(s) that have the largest delay added for hold.
 
@@ -1849,7 +1814,7 @@ Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Tim
 Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
-Info (11798): Fitter preparation operations ending: elapsed time is 00:00:04
+Info (11798): Fitter preparation operations ending: elapsed time is 00:00:03
 Info (170189): Fitter placement preparation operations beginning
 Info (14951): The Fitter is using Advanced Physical Optimization.
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:01
@@ -1861,8 +1826,8 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
     Info (170196): Router estimated peak interconnect usage is 3% of the available device resources in the region that extends from location X33_Y0 to location X43_Y10
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:03
-Info (11888): Total time spent on timing analysis during the Fitter is 0.50 seconds.
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:04
+Info (11888): Total time spent on timing analysis during the Fitter is 0.48 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
@@ -1870,8 +1835,8 @@ Info (334004): Delay annotation completed successfully
 Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:05
 Info (144001): Generated suppressed messages file C:/intelFPGA_lite/guess_number/output_files/final.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 6259 megabytes
-    Info: Processing ended: Fri Dec 30 14:42:38 2022
+    Info: Peak virtual memory: 6258 megabytes
+    Info: Processing ended: Fri Dec 30 14:58:00 2022
     Info: Elapsed time: 00:00:20
     Info: Total CPU time (on all processors): 00:00:31
 
