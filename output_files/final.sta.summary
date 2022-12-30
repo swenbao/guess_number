@@ -3,195 +3,195 @@ Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1100mV 85C Model Setup 'FrequencyDivider2:fd2|clk_div'
-Slack : -6.325
-TNS   : -65.198
+Slack : -7.100
+TNS   : -67.172
 
 Type  : Slow 1100mV 85C Model Setup 'clk'
-Slack : -5.870
-TNS   : -285.627
+Slack : -6.218
+TNS   : -306.453
 
 Type  : Slow 1100mV 85C Model Setup 'state'
-Slack : -5.219
-TNS   : -142.313
+Slack : -5.158
+TNS   : -133.423
 
 Type  : Slow 1100mV 85C Model Setup 'FrequencyDivider:fd|clk_div'
-Slack : -1.820
-TNS   : -19.023
+Slack : -1.922
+TNS   : -13.500
+
+Type  : Slow 1100mV 85C Model Hold 'FrequencyDivider2:fd2|clk_div'
+Slack : 0.398
+TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Hold 'clk'
-Slack : 0.442
+Slack : 0.444
 TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Hold 'state'
-Slack : 0.685
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'FrequencyDivider2:fd2|clk_div'
-Slack : 0.738
+Slack : 0.462
 TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Hold 'FrequencyDivider:fd|clk_div'
-Slack : 0.855
+Slack : 0.748
 TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
 Slack : -0.538
-TNS   : -68.867
+TNS   : -76.370
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'FrequencyDivider2:fd2|clk_div'
 Slack : -0.538
-TNS   : -19.383
+TNS   : -19.312
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'FrequencyDivider:fd|clk_div'
 Slack : -0.538
-TNS   : -11.406
+TNS   : -7.907
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'state'
-Slack : -0.033
-TNS   : -0.056
+Slack : -0.022
+TNS   : -0.022
 
 Type  : Slow 1100mV 0C Model Setup 'FrequencyDivider2:fd2|clk_div'
-Slack : -6.532
-TNS   : -65.802
+Slack : -7.353
+TNS   : -68.407
 
 Type  : Slow 1100mV 0C Model Setup 'clk'
-Slack : -5.946
-TNS   : -286.981
+Slack : -6.402
+TNS   : -308.980
 
 Type  : Slow 1100mV 0C Model Setup 'state'
-Slack : -4.931
-TNS   : -132.650
+Slack : -4.882
+TNS   : -125.054
 
 Type  : Slow 1100mV 0C Model Setup 'FrequencyDivider:fd|clk_div'
-Slack : -1.816
-TNS   : -19.047
+Slack : -1.947
+TNS   : -13.554
 
 Type  : Slow 1100mV 0C Model Hold 'state'
-Slack : 0.202
-TNS   : 0.000
-
-Type  : Slow 1100mV 0C Model Hold 'clk'
-Slack : 0.450
+Slack : 0.085
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Hold 'FrequencyDivider2:fd2|clk_div'
-Slack : 0.693
+Slack : 0.333
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : 0.449
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Hold 'FrequencyDivider:fd|clk_div'
-Slack : 0.884
+Slack : 0.713
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
 Slack : -0.538
-TNS   : -71.374
+TNS   : -78.686
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'FrequencyDivider2:fd2|clk_div'
 Slack : -0.538
-TNS   : -19.115
+TNS   : -19.071
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'FrequencyDivider:fd|clk_div'
 Slack : -0.538
-TNS   : -11.317
+TNS   : -7.839
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'state'
-Slack : -0.038
-TNS   : -0.038
+Slack : -0.020
+TNS   : -0.020
 
 Type  : Fast 1100mV 85C Model Setup 'FrequencyDivider2:fd2|clk_div'
-Slack : -3.357
-TNS   : -30.312
+Slack : -3.628
+TNS   : -30.588
 
 Type  : Fast 1100mV 85C Model Setup 'clk'
-Slack : -3.153
-TNS   : -103.873
+Slack : -3.188
+TNS   : -104.698
 
 Type  : Fast 1100mV 85C Model Setup 'state'
-Slack : -2.737
-TNS   : -80.162
+Slack : -2.803
+TNS   : -75.414
 
 Type  : Fast 1100mV 85C Model Setup 'FrequencyDivider:fd|clk_div'
-Slack : -0.527
-TNS   : -5.578
+Slack : -0.697
+TNS   : -4.440
 
 Type  : Fast 1100mV 85C Model Hold 'FrequencyDivider2:fd2|clk_div'
-Slack : 0.166
-TNS   : 0.000
+Slack : -0.097
+TNS   : -0.531
 
 Type  : Fast 1100mV 85C Model Hold 'clk'
-Slack : 0.201
+Slack : 0.200
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Hold 'FrequencyDivider:fd|clk_div'
-Slack : 0.295
+Slack : 0.305
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Hold 'state'
-Slack : 0.530
+Slack : 0.394
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
-Slack : -0.482
-TNS   : -8.936
+Slack : -0.407
+TNS   : -9.540
 
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'state'
-Slack : -0.276
-TNS   : -5.469
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'FrequencyDivider:fd|clk_div'
-Slack : -0.023
-TNS   : -0.236
+Slack : -0.235
+TNS   : -5.376
 
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'FrequencyDivider2:fd2|clk_div'
-Slack : 0.035
+Slack : 0.058
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'FrequencyDivider:fd|clk_div'
+Slack : 0.075
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Setup 'FrequencyDivider2:fd2|clk_div'
-Slack : -3.161
-TNS   : -27.432
+Slack : -3.459
+TNS   : -27.936
 
 Type  : Fast 1100mV 0C Model Setup 'clk'
-Slack : -2.835
-TNS   : -89.994
+Slack : -2.884
+TNS   : -90.690
 
 Type  : Fast 1100mV 0C Model Setup 'state'
-Slack : -2.241
-TNS   : -64.561
+Slack : -2.285
+TNS   : -59.723
 
 Type  : Fast 1100mV 0C Model Setup 'FrequencyDivider:fd|clk_div'
-Slack : -0.453
-TNS   : -4.642
+Slack : -0.599
+TNS   : -3.746
 
 Type  : Fast 1100mV 0C Model Hold 'FrequencyDivider2:fd2|clk_div'
-Slack : 0.104
+Slack : -0.119
+TNS   : -0.674
+
+Type  : Fast 1100mV 0C Model Hold 'state'
+Slack : 0.170
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Hold 'clk'
-Slack : 0.187
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Hold 'state'
-Slack : 0.251
+Slack : 0.190
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Hold 'FrequencyDivider:fd|clk_div'
-Slack : 0.277
+Slack : 0.285
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
-Slack : -0.469
-TNS   : -9.104
+Slack : -0.392
+TNS   : -9.821
 
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'state'
-Slack : -0.233
-TNS   : -5.255
-
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'FrequencyDivider:fd|clk_div'
-Slack : 0.019
-TNS   : 0.000
+Slack : -0.199
+TNS   : -4.502
 
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'FrequencyDivider2:fd2|clk_div'
-Slack : 0.070
+Slack : 0.080
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'FrequencyDivider:fd|clk_div'
+Slack : 0.091
 TNS   : 0.000
 
 ------------------------------------------------------------

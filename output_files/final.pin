@@ -108,7 +108,7 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : AA9       :        :                   :      
 o3[2]                        : AA10      : output : 2.5 V             :         : 3B        : Y              
 GND                          : AA11      : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AA12      :        :                   :         : 3B        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AA13      :        :                   :         : 4A        :                
+seven_reset                  : AA13      : input  : 2.5 V             :         : 4A        : Y              
 show                         : AA14      : input  : 2.5 V             :         : 4A        : Y              
 digit[3]                     : AA15      : input  : 2.5 V             :         : 4A        : Y              
 VCCIO4A                      : AA16      : power  :                   : 2.5V    : 4A        :                

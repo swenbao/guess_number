@@ -68,6 +68,34 @@
 					"strict" : false
 				},
 				{
+					"name" : "o5[0]",
+					"strict" : false
+				},
+				{
+					"name" : "o5[1]",
+					"strict" : false
+				},
+				{
+					"name" : "o5[2]",
+					"strict" : false
+				},
+				{
+					"name" : "o5[3]",
+					"strict" : false
+				},
+				{
+					"name" : "o5[4]",
+					"strict" : false
+				},
+				{
+					"name" : "o5[5]",
+					"strict" : false
+				},
+				{
+					"name" : "o5[6]",
+					"strict" : false
+				},
+				{
 					"name" : "dot_row[0]",
 					"strict" : false
 				},
@@ -168,10 +196,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "clk",
-					"strict" : false
-				},
-				{
 					"name" : "keypadCol[1]",
 					"strict" : false
 				},
@@ -185,6 +209,10 @@
 				},
 				{
 					"name" : "keypadCol[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
 					"strict" : false
 				},
 				{
