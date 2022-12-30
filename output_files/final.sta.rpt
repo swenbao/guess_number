@@ -1,5 +1,5 @@
 Timing Analyzer report for final
-Fri Dec 30 12:13:44 2022
+Fri Dec 30 14:42:48 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -104,9 +104,9 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   5.7%      ;
-;     Processor 3            ;   5.5%      ;
-;     Processor 4            ;   5.4%      ;
+;     Processor 2            ;   5.9%      ;
+;     Processor 3            ;   5.8%      ;
+;     Processor 4            ;   5.6%      ;
 +----------------------------+-------------+
 
 
@@ -127,9 +127,9 @@ refer to the applicable agreement for further details.
 +------------+-----------------+-------------------------------+------+
 ; Fmax       ; Restricted Fmax ; Clock Name                    ; Note ;
 +------------+-----------------+-------------------------------+------+
-; 145.56 MHz ; 145.56 MHz      ; clk                           ;      ;
-; 354.61 MHz ; 354.61 MHz      ; FrequencyDivider:fd|clk_div   ;      ;
-; 361.27 MHz ; 361.27 MHz      ; FrequencyDivider2:fd2|clk_div ;      ;
+; 138.54 MHz ; 138.54 MHz      ; clk                           ;      ;
+; 342.23 MHz ; 342.23 MHz      ; FrequencyDivider:fd|clk_div   ;      ;
+; 358.94 MHz ; 358.94 MHz      ; FrequencyDivider2:fd2|clk_div ;      ;
 +------------+-----------------+-------------------------------+------+
 This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
 
@@ -145,10 +145,10 @@ HTML report is unavailable in plain text report export.
 +-------------------------------+--------+---------------+
 ; Clock                         ; Slack  ; End Point TNS ;
 +-------------------------------+--------+---------------+
-; FrequencyDivider2:fd2|clk_div ; -6.325 ; -65.198       ;
-; clk                           ; -5.870 ; -285.627      ;
-; state                         ; -5.219 ; -142.313      ;
-; FrequencyDivider:fd|clk_div   ; -1.820 ; -19.023       ;
+; FrequencyDivider2:fd2|clk_div ; -7.100 ; -67.172       ;
+; clk                           ; -6.218 ; -306.453      ;
+; state                         ; -5.158 ; -133.423      ;
+; FrequencyDivider:fd|clk_div   ; -1.922 ; -13.500       ;
 +-------------------------------+--------+---------------+
 
 
@@ -157,10 +157,10 @@ HTML report is unavailable in plain text report export.
 +-------------------------------+-------+---------------+
 ; Clock                         ; Slack ; End Point TNS ;
 +-------------------------------+-------+---------------+
-; clk                           ; 0.442 ; 0.000         ;
-; state                         ; 0.685 ; 0.000         ;
-; FrequencyDivider2:fd2|clk_div ; 0.738 ; 0.000         ;
-; FrequencyDivider:fd|clk_div   ; 0.855 ; 0.000         ;
+; FrequencyDivider2:fd2|clk_div ; 0.398 ; 0.000         ;
+; clk                           ; 0.444 ; 0.000         ;
+; state                         ; 0.462 ; 0.000         ;
+; FrequencyDivider:fd|clk_div   ; 0.748 ; 0.000         ;
 +-------------------------------+-------+---------------+
 
 
@@ -181,10 +181,10 @@ No paths to report.
 +-------------------------------+--------+---------------+
 ; Clock                         ; Slack  ; End Point TNS ;
 +-------------------------------+--------+---------------+
-; clk                           ; -0.538 ; -68.867       ;
-; FrequencyDivider2:fd2|clk_div ; -0.538 ; -19.383       ;
-; FrequencyDivider:fd|clk_div   ; -0.538 ; -11.406       ;
-; state                         ; -0.033 ; -0.056        ;
+; clk                           ; -0.538 ; -76.370       ;
+; FrequencyDivider2:fd2|clk_div ; -0.538 ; -19.312       ;
+; FrequencyDivider:fd|clk_div   ; -0.538 ; -7.907        ;
+; state                         ; -0.022 ; -0.022        ;
 +-------------------------------+--------+---------------+
 
 
@@ -199,9 +199,9 @@ No synchronizer chains to report.
 +------------+-----------------+-------------------------------+------+
 ; Fmax       ; Restricted Fmax ; Clock Name                    ; Note ;
 +------------+-----------------+-------------------------------+------+
-; 143.97 MHz ; 143.97 MHz      ; clk                           ;      ;
-; 355.11 MHz ; 355.11 MHz      ; FrequencyDivider:fd|clk_div   ;      ;
-; 364.43 MHz ; 364.43 MHz      ; FrequencyDivider2:fd2|clk_div ;      ;
+; 135.1 MHz  ; 135.1 MHz       ; clk                           ;      ;
+; 339.33 MHz ; 339.33 MHz      ; FrequencyDivider:fd|clk_div   ;      ;
+; 359.07 MHz ; 359.07 MHz      ; FrequencyDivider2:fd2|clk_div ;      ;
 +------------+-----------------+-------------------------------+------+
 This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
 
@@ -211,10 +211,10 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +-------------------------------+--------+---------------+
 ; Clock                         ; Slack  ; End Point TNS ;
 +-------------------------------+--------+---------------+
-; FrequencyDivider2:fd2|clk_div ; -6.532 ; -65.802       ;
-; clk                           ; -5.946 ; -286.981      ;
-; state                         ; -4.931 ; -132.650      ;
-; FrequencyDivider:fd|clk_div   ; -1.816 ; -19.047       ;
+; FrequencyDivider2:fd2|clk_div ; -7.353 ; -68.407       ;
+; clk                           ; -6.402 ; -308.980      ;
+; state                         ; -4.882 ; -125.054      ;
+; FrequencyDivider:fd|clk_div   ; -1.947 ; -13.554       ;
 +-------------------------------+--------+---------------+
 
 
@@ -223,10 +223,10 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +-------------------------------+-------+---------------+
 ; Clock                         ; Slack ; End Point TNS ;
 +-------------------------------+-------+---------------+
-; state                         ; 0.202 ; 0.000         ;
-; clk                           ; 0.450 ; 0.000         ;
-; FrequencyDivider2:fd2|clk_div ; 0.693 ; 0.000         ;
-; FrequencyDivider:fd|clk_div   ; 0.884 ; 0.000         ;
+; state                         ; 0.085 ; 0.000         ;
+; FrequencyDivider2:fd2|clk_div ; 0.333 ; 0.000         ;
+; clk                           ; 0.449 ; 0.000         ;
+; FrequencyDivider:fd|clk_div   ; 0.713 ; 0.000         ;
 +-------------------------------+-------+---------------+
 
 
@@ -247,10 +247,10 @@ No paths to report.
 +-------------------------------+--------+---------------+
 ; Clock                         ; Slack  ; End Point TNS ;
 +-------------------------------+--------+---------------+
-; clk                           ; -0.538 ; -71.374       ;
-; FrequencyDivider2:fd2|clk_div ; -0.538 ; -19.115       ;
-; FrequencyDivider:fd|clk_div   ; -0.538 ; -11.317       ;
-; state                         ; -0.038 ; -0.038        ;
+; clk                           ; -0.538 ; -78.686       ;
+; FrequencyDivider2:fd2|clk_div ; -0.538 ; -19.071       ;
+; FrequencyDivider:fd|clk_div   ; -0.538 ; -7.839        ;
+; state                         ; -0.020 ; -0.020        ;
 +-------------------------------+--------+---------------+
 
 
@@ -265,23 +265,23 @@ No synchronizer chains to report.
 +-------------------------------+--------+---------------+
 ; Clock                         ; Slack  ; End Point TNS ;
 +-------------------------------+--------+---------------+
-; FrequencyDivider2:fd2|clk_div ; -3.357 ; -30.312       ;
-; clk                           ; -3.153 ; -103.873      ;
-; state                         ; -2.737 ; -80.162       ;
-; FrequencyDivider:fd|clk_div   ; -0.527 ; -5.578        ;
+; FrequencyDivider2:fd2|clk_div ; -3.628 ; -30.588       ;
+; clk                           ; -3.188 ; -104.698      ;
+; state                         ; -2.803 ; -75.414       ;
+; FrequencyDivider:fd|clk_div   ; -0.697 ; -4.440        ;
 +-------------------------------+--------+---------------+
 
 
-+-------------------------------------------------------+
-; Fast 1100mV 85C Model Hold Summary                    ;
-+-------------------------------+-------+---------------+
-; Clock                         ; Slack ; End Point TNS ;
-+-------------------------------+-------+---------------+
-; FrequencyDivider2:fd2|clk_div ; 0.166 ; 0.000         ;
-; clk                           ; 0.201 ; 0.000         ;
-; FrequencyDivider:fd|clk_div   ; 0.295 ; 0.000         ;
-; state                         ; 0.530 ; 0.000         ;
-+-------------------------------+-------+---------------+
++--------------------------------------------------------+
+; Fast 1100mV 85C Model Hold Summary                     ;
++-------------------------------+--------+---------------+
+; Clock                         ; Slack  ; End Point TNS ;
++-------------------------------+--------+---------------+
+; FrequencyDivider2:fd2|clk_div ; -0.097 ; -0.531        ;
+; clk                           ; 0.200  ; 0.000         ;
+; FrequencyDivider:fd|clk_div   ; 0.305  ; 0.000         ;
+; state                         ; 0.394  ; 0.000         ;
++-------------------------------+--------+---------------+
 
 
 ------------------------------------------
@@ -301,10 +301,10 @@ No paths to report.
 +-------------------------------+--------+---------------+
 ; Clock                         ; Slack  ; End Point TNS ;
 +-------------------------------+--------+---------------+
-; clk                           ; -0.482 ; -8.936        ;
-; state                         ; -0.276 ; -5.469        ;
-; FrequencyDivider:fd|clk_div   ; -0.023 ; -0.236        ;
-; FrequencyDivider2:fd2|clk_div ; 0.035  ; 0.000         ;
+; clk                           ; -0.407 ; -9.540        ;
+; state                         ; -0.235 ; -5.376        ;
+; FrequencyDivider2:fd2|clk_div ; 0.058  ; 0.000         ;
+; FrequencyDivider:fd|clk_div   ; 0.075  ; 0.000         ;
 +-------------------------------+--------+---------------+
 
 
@@ -319,23 +319,23 @@ No synchronizer chains to report.
 +-------------------------------+--------+---------------+
 ; Clock                         ; Slack  ; End Point TNS ;
 +-------------------------------+--------+---------------+
-; FrequencyDivider2:fd2|clk_div ; -3.161 ; -27.432       ;
-; clk                           ; -2.835 ; -89.994       ;
-; state                         ; -2.241 ; -64.561       ;
-; FrequencyDivider:fd|clk_div   ; -0.453 ; -4.642        ;
+; FrequencyDivider2:fd2|clk_div ; -3.459 ; -27.936       ;
+; clk                           ; -2.884 ; -90.690       ;
+; state                         ; -2.285 ; -59.723       ;
+; FrequencyDivider:fd|clk_div   ; -0.599 ; -3.746        ;
 +-------------------------------+--------+---------------+
 
 
-+-------------------------------------------------------+
-; Fast 1100mV 0C Model Hold Summary                     ;
-+-------------------------------+-------+---------------+
-; Clock                         ; Slack ; End Point TNS ;
-+-------------------------------+-------+---------------+
-; FrequencyDivider2:fd2|clk_div ; 0.104 ; 0.000         ;
-; clk                           ; 0.187 ; 0.000         ;
-; state                         ; 0.251 ; 0.000         ;
-; FrequencyDivider:fd|clk_div   ; 0.277 ; 0.000         ;
-+-------------------------------+-------+---------------+
++--------------------------------------------------------+
+; Fast 1100mV 0C Model Hold Summary                      ;
++-------------------------------+--------+---------------+
+; Clock                         ; Slack  ; End Point TNS ;
++-------------------------------+--------+---------------+
+; FrequencyDivider2:fd2|clk_div ; -0.119 ; -0.674        ;
+; state                         ; 0.170  ; 0.000         ;
+; clk                           ; 0.190  ; 0.000         ;
+; FrequencyDivider:fd|clk_div   ; 0.285  ; 0.000         ;
++-------------------------------+--------+---------------+
 
 
 -----------------------------------------
@@ -355,10 +355,10 @@ No paths to report.
 +-------------------------------+--------+---------------+
 ; Clock                         ; Slack  ; End Point TNS ;
 +-------------------------------+--------+---------------+
-; clk                           ; -0.469 ; -9.104        ;
-; state                         ; -0.233 ; -5.255        ;
-; FrequencyDivider:fd|clk_div   ; 0.019  ; 0.000         ;
-; FrequencyDivider2:fd2|clk_div ; 0.070  ; 0.000         ;
+; clk                           ; -0.392 ; -9.821        ;
+; state                         ; -0.199 ; -4.502        ;
+; FrequencyDivider2:fd2|clk_div ; 0.080  ; 0.000         ;
+; FrequencyDivider:fd|clk_div   ; 0.091  ; 0.000         ;
 +-------------------------------+--------+---------------+
 
 
@@ -368,22 +368,22 @@ No paths to report.
 No synchronizer chains to report.
 
 
-+----------------------------------------------------------------------------------------------+
-; Multicorner Timing Analysis Summary                                                          ;
-+--------------------------------+----------+-------+----------+---------+---------------------+
-; Clock                          ; Setup    ; Hold  ; Recovery ; Removal ; Minimum Pulse Width ;
-+--------------------------------+----------+-------+----------+---------+---------------------+
-; Worst-case Slack               ; -6.532   ; 0.104 ; N/A      ; N/A     ; -0.538              ;
-;  FrequencyDivider2:fd2|clk_div ; -6.532   ; 0.104 ; N/A      ; N/A     ; -0.538              ;
-;  FrequencyDivider:fd|clk_div   ; -1.820   ; 0.277 ; N/A      ; N/A     ; -0.538              ;
-;  clk                           ; -5.946   ; 0.187 ; N/A      ; N/A     ; -0.538              ;
-;  state                         ; -5.219   ; 0.202 ; N/A      ; N/A     ; -0.276              ;
-; Design-wide TNS                ; -512.161 ; 0.0   ; 0.0      ; 0.0     ; -101.844            ;
-;  FrequencyDivider2:fd2|clk_div ; -65.802  ; 0.000 ; N/A      ; N/A     ; -19.383             ;
-;  FrequencyDivider:fd|clk_div   ; -19.047  ; 0.000 ; N/A      ; N/A     ; -11.406             ;
-;  clk                           ; -286.981 ; 0.000 ; N/A      ; N/A     ; -71.374             ;
-;  state                         ; -142.313 ; 0.000 ; N/A      ; N/A     ; -5.469              ;
-+--------------------------------+----------+-------+----------+---------+---------------------+
++-----------------------------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                                           ;
++--------------------------------+----------+--------+----------+---------+---------------------+
+; Clock                          ; Setup    ; Hold   ; Recovery ; Removal ; Minimum Pulse Width ;
++--------------------------------+----------+--------+----------+---------+---------------------+
+; Worst-case Slack               ; -7.353   ; -0.119 ; N/A      ; N/A     ; -0.538              ;
+;  FrequencyDivider2:fd2|clk_div ; -7.353   ; -0.119 ; N/A      ; N/A     ; -0.538              ;
+;  FrequencyDivider:fd|clk_div   ; -1.947   ; 0.285  ; N/A      ; N/A     ; -0.538              ;
+;  clk                           ; -6.402   ; 0.190  ; N/A      ; N/A     ; -0.538              ;
+;  state                         ; -5.158   ; 0.085  ; N/A      ; N/A     ; -0.235              ;
+; Design-wide TNS                ; -520.548 ; -0.674 ; 0.0      ; 0.0     ; -105.616            ;
+;  FrequencyDivider2:fd2|clk_div ; -68.407  ; -0.674 ; N/A      ; N/A     ; -19.312             ;
+;  FrequencyDivider:fd|clk_div   ; -13.554  ; 0.000  ; N/A      ; N/A     ; -7.907              ;
+;  clk                           ; -308.980 ; 0.000  ; N/A      ; N/A     ; -78.686             ;
+;  state                         ; -133.423 ; 0.000  ; N/A      ; N/A     ; -5.376              ;
++--------------------------------+----------+--------+----------+---------+---------------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -462,6 +462,7 @@ No synchronizer chains to report.
 +--------------+--------------+-----------------+-----------------+
 ; Pin          ; I/O Standard ; 10-90 Rise Time ; 90-10 Fall Time ;
 +--------------+--------------+-----------------+-----------------+
+; seven_reset  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; digit[0]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; digit[1]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; digit[2]     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
@@ -470,11 +471,11 @@ No synchronizer chains to report.
 ; show         ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; rst          ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; state        ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
-; clk          ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; keypadCol[1] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; keypadCol[2] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; keypadCol[3] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; keypadCol[0] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; clk          ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; digit_4      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; digit_3      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
 ; digit_2      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
@@ -771,13 +772,13 @@ No synchronizer chains to report.
 +-------------------------------+-------------------------------+----------+----------+----------+----------+
 ; From Clock                    ; To Clock                      ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
 +-------------------------------+-------------------------------+----------+----------+----------+----------+
-; clk                           ; clk                           ; 4198     ; 0        ; 0        ; 0        ;
+; clk                           ; clk                           ; 4634     ; 0        ; 0        ; 0        ;
 ; FrequencyDivider2:fd2|clk_div ; clk                           ; 1        ; 1        ; 0        ; 0        ;
 ; FrequencyDivider:fd|clk_div   ; clk                           ; 1        ; 1        ; 0        ; 0        ;
 ; FrequencyDivider2:fd2|clk_div ; FrequencyDivider2:fd2|clk_div ; 69       ; 0        ; 0        ; 0        ;
 ; FrequencyDivider:fd|clk_div   ; FrequencyDivider2:fd2|clk_div ; 12       ; 0        ; 0        ; 0        ;
 ; state                         ; FrequencyDivider2:fd2|clk_div ; 86       ; 86       ; 0        ; 0        ;
-; FrequencyDivider:fd|clk_div   ; FrequencyDivider:fd|clk_div   ; 56       ; 0        ; 0        ; 0        ;
+; FrequencyDivider:fd|clk_div   ; FrequencyDivider:fd|clk_div   ; 44       ; 0        ; 0        ; 0        ;
 ; FrequencyDivider:fd|clk_div   ; state                         ; 16       ; 0        ; 16       ; 0        ;
 +-------------------------------+-------------------------------+----------+----------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
@@ -788,13 +789,13 @@ Entries labeled "false path" only account for clock-to-clock false paths and not
 +-------------------------------+-------------------------------+----------+----------+----------+----------+
 ; From Clock                    ; To Clock                      ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
 +-------------------------------+-------------------------------+----------+----------+----------+----------+
-; clk                           ; clk                           ; 4198     ; 0        ; 0        ; 0        ;
+; clk                           ; clk                           ; 4634     ; 0        ; 0        ; 0        ;
 ; FrequencyDivider2:fd2|clk_div ; clk                           ; 1        ; 1        ; 0        ; 0        ;
 ; FrequencyDivider:fd|clk_div   ; clk                           ; 1        ; 1        ; 0        ; 0        ;
 ; FrequencyDivider2:fd2|clk_div ; FrequencyDivider2:fd2|clk_div ; 69       ; 0        ; 0        ; 0        ;
 ; FrequencyDivider:fd|clk_div   ; FrequencyDivider2:fd2|clk_div ; 12       ; 0        ; 0        ; 0        ;
 ; state                         ; FrequencyDivider2:fd2|clk_div ; 86       ; 86       ; 0        ; 0        ;
-; FrequencyDivider:fd|clk_div   ; FrequencyDivider:fd|clk_div   ; 56       ; 0        ; 0        ; 0        ;
+; FrequencyDivider:fd|clk_div   ; FrequencyDivider:fd|clk_div   ; 44       ; 0        ; 0        ; 0        ;
 ; FrequencyDivider:fd|clk_div   ; state                         ; 16       ; 0        ; 16       ; 0        ;
 +-------------------------------+-------------------------------+----------+----------+----------+----------+
 Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
@@ -820,9 +821,9 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 ; Illegal Clocks                  ; 0     ; 0    ;
 ; Unconstrained Clocks            ; 0     ; 0    ;
 ; Unconstrained Input Ports       ; 11    ; 11   ;
-; Unconstrained Input Port Paths  ; 214   ; 214  ;
-; Unconstrained Output Ports      ; 37    ; 37   ;
-; Unconstrained Output Port Paths ; 433   ; 433  ;
+; Unconstrained Input Port Paths  ; 221   ; 221  ;
+; Unconstrained Output Ports      ; 44    ; 44   ;
+; Unconstrained Output Port Paths ; 461   ; 461  ;
 +---------------------------------+-------+------+
 
 
@@ -899,6 +900,13 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 ; o4[4]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; o4[5]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; o4[6]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; o5[0]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; o5[1]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; o5[2]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; o5[3]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; o5[4]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; o5[5]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; o5[6]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 +--------------+---------------------------------------------------------------------------------------+
 
 
@@ -963,6 +971,13 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 ; o4[4]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; o4[5]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 ; o4[6]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; o5[0]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; o5[1]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; o5[2]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; o5[3]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; o5[4]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; o5[5]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; o5[6]        ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
 +--------------+---------------------------------------------------------------------------------------+
 
 
@@ -972,7 +987,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Fri Dec 30 12:13:39 2022
+    Info: Processing started: Fri Dec 30 14:42:42 2022
 Info: Command: quartus_sta final -c final
 Info: qsta_default_script.tcl version: #1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -993,120 +1008,120 @@ Info: Found TIMING_ANALYZER_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
 Info: Analyzing Slow 1100mV 85C Model
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
-Info (332146): Worst-case setup slack is -6.325
+Info (332146): Worst-case setup slack is -7.100
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -6.325             -65.198 FrequencyDivider2:fd2|clk_div 
-    Info (332119):    -5.870            -285.627 clk 
-    Info (332119):    -5.219            -142.313 state 
-    Info (332119):    -1.820             -19.023 FrequencyDivider:fd|clk_div 
-Info (332146): Worst-case hold slack is 0.442
+    Info (332119):    -7.100             -67.172 FrequencyDivider2:fd2|clk_div 
+    Info (332119):    -6.218            -306.453 clk 
+    Info (332119):    -5.158            -133.423 state 
+    Info (332119):    -1.922             -13.500 FrequencyDivider:fd|clk_div 
+Info (332146): Worst-case hold slack is 0.398
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.442               0.000 clk 
-    Info (332119):     0.685               0.000 state 
-    Info (332119):     0.738               0.000 FrequencyDivider2:fd2|clk_div 
-    Info (332119):     0.855               0.000 FrequencyDivider:fd|clk_div 
+    Info (332119):     0.398               0.000 FrequencyDivider2:fd2|clk_div 
+    Info (332119):     0.444               0.000 clk 
+    Info (332119):     0.462               0.000 state 
+    Info (332119):     0.748               0.000 FrequencyDivider:fd|clk_div 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
 Info (332146): Worst-case minimum pulse width slack is -0.538
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -0.538             -68.867 clk 
-    Info (332119):    -0.538             -19.383 FrequencyDivider2:fd2|clk_div 
-    Info (332119):    -0.538             -11.406 FrequencyDivider:fd|clk_div 
-    Info (332119):    -0.033              -0.056 state 
+    Info (332119):    -0.538             -76.370 clk 
+    Info (332119):    -0.538             -19.312 FrequencyDivider2:fd2|clk_div 
+    Info (332119):    -0.538              -7.907 FrequencyDivider:fd|clk_div 
+    Info (332119):    -0.022              -0.022 state 
 Info: Analyzing Slow 1100mV 0C Model
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
-Info (332146): Worst-case setup slack is -6.532
+Info (332146): Worst-case setup slack is -7.353
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -6.532             -65.802 FrequencyDivider2:fd2|clk_div 
-    Info (332119):    -5.946            -286.981 clk 
-    Info (332119):    -4.931            -132.650 state 
-    Info (332119):    -1.816             -19.047 FrequencyDivider:fd|clk_div 
-Info (332146): Worst-case hold slack is 0.202
+    Info (332119):    -7.353             -68.407 FrequencyDivider2:fd2|clk_div 
+    Info (332119):    -6.402            -308.980 clk 
+    Info (332119):    -4.882            -125.054 state 
+    Info (332119):    -1.947             -13.554 FrequencyDivider:fd|clk_div 
+Info (332146): Worst-case hold slack is 0.085
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.202               0.000 state 
-    Info (332119):     0.450               0.000 clk 
-    Info (332119):     0.693               0.000 FrequencyDivider2:fd2|clk_div 
-    Info (332119):     0.884               0.000 FrequencyDivider:fd|clk_div 
+    Info (332119):     0.085               0.000 state 
+    Info (332119):     0.333               0.000 FrequencyDivider2:fd2|clk_div 
+    Info (332119):     0.449               0.000 clk 
+    Info (332119):     0.713               0.000 FrequencyDivider:fd|clk_div 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
 Info (332146): Worst-case minimum pulse width slack is -0.538
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -0.538             -71.374 clk 
-    Info (332119):    -0.538             -19.115 FrequencyDivider2:fd2|clk_div 
-    Info (332119):    -0.538             -11.317 FrequencyDivider:fd|clk_div 
-    Info (332119):    -0.038              -0.038 state 
+    Info (332119):    -0.538             -78.686 clk 
+    Info (332119):    -0.538             -19.071 FrequencyDivider2:fd2|clk_div 
+    Info (332119):    -0.538              -7.839 FrequencyDivider:fd|clk_div 
+    Info (332119):    -0.020              -0.020 state 
 Info: Analyzing Fast 1100mV 85C Model
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
-Info (332146): Worst-case setup slack is -3.357
+Info (332146): Worst-case setup slack is -3.628
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -3.357             -30.312 FrequencyDivider2:fd2|clk_div 
-    Info (332119):    -3.153            -103.873 clk 
-    Info (332119):    -2.737             -80.162 state 
-    Info (332119):    -0.527              -5.578 FrequencyDivider:fd|clk_div 
-Info (332146): Worst-case hold slack is 0.166
+    Info (332119):    -3.628             -30.588 FrequencyDivider2:fd2|clk_div 
+    Info (332119):    -3.188            -104.698 clk 
+    Info (332119):    -2.803             -75.414 state 
+    Info (332119):    -0.697              -4.440 FrequencyDivider:fd|clk_div 
+Info (332146): Worst-case hold slack is -0.097
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.166               0.000 FrequencyDivider2:fd2|clk_div 
-    Info (332119):     0.201               0.000 clk 
-    Info (332119):     0.295               0.000 FrequencyDivider:fd|clk_div 
-    Info (332119):     0.530               0.000 state 
+    Info (332119):    -0.097              -0.531 FrequencyDivider2:fd2|clk_div 
+    Info (332119):     0.200               0.000 clk 
+    Info (332119):     0.305               0.000 FrequencyDivider:fd|clk_div 
+    Info (332119):     0.394               0.000 state 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
-Info (332146): Worst-case minimum pulse width slack is -0.482
+Info (332146): Worst-case minimum pulse width slack is -0.407
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -0.482              -8.936 clk 
-    Info (332119):    -0.276              -5.469 state 
-    Info (332119):    -0.023              -0.236 FrequencyDivider:fd|clk_div 
-    Info (332119):     0.035               0.000 FrequencyDivider2:fd2|clk_div 
+    Info (332119):    -0.407              -9.540 clk 
+    Info (332119):    -0.235              -5.376 state 
+    Info (332119):     0.058               0.000 FrequencyDivider2:fd2|clk_div 
+    Info (332119):     0.075               0.000 FrequencyDivider:fd|clk_div 
 Info: Analyzing Fast 1100mV 0C Model
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Critical Warning (332148): Timing requirements not met
     Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the Timing Analyzer.
-Info (332146): Worst-case setup slack is -3.161
+Info (332146): Worst-case setup slack is -3.459
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -3.161             -27.432 FrequencyDivider2:fd2|clk_div 
-    Info (332119):    -2.835             -89.994 clk 
-    Info (332119):    -2.241             -64.561 state 
-    Info (332119):    -0.453              -4.642 FrequencyDivider:fd|clk_div 
-Info (332146): Worst-case hold slack is 0.104
+    Info (332119):    -3.459             -27.936 FrequencyDivider2:fd2|clk_div 
+    Info (332119):    -2.884             -90.690 clk 
+    Info (332119):    -2.285             -59.723 state 
+    Info (332119):    -0.599              -3.746 FrequencyDivider:fd|clk_div 
+Info (332146): Worst-case hold slack is -0.119
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.104               0.000 FrequencyDivider2:fd2|clk_div 
-    Info (332119):     0.187               0.000 clk 
-    Info (332119):     0.251               0.000 state 
-    Info (332119):     0.277               0.000 FrequencyDivider:fd|clk_div 
+    Info (332119):    -0.119              -0.674 FrequencyDivider2:fd2|clk_div 
+    Info (332119):     0.170               0.000 state 
+    Info (332119):     0.190               0.000 clk 
+    Info (332119):     0.285               0.000 FrequencyDivider:fd|clk_div 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
-Info (332146): Worst-case minimum pulse width slack is -0.469
+Info (332146): Worst-case minimum pulse width slack is -0.392
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -0.469              -9.104 clk 
-    Info (332119):    -0.233              -5.255 state 
-    Info (332119):     0.019               0.000 FrequencyDivider:fd|clk_div 
-    Info (332119):     0.070               0.000 FrequencyDivider2:fd2|clk_div 
+    Info (332119):    -0.392              -9.821 clk 
+    Info (332119):    -0.199              -4.502 state 
+    Info (332119):     0.080               0.000 FrequencyDivider2:fd2|clk_div 
+    Info (332119):     0.091               0.000 FrequencyDivider:fd|clk_div 
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime Timing Analyzer was successful. 0 errors, 7 warnings
-    Info: Peak virtual memory: 5101 megabytes
-    Info: Processing ended: Fri Dec 30 12:13:44 2022
-    Info: Elapsed time: 00:00:05
+    Info: Peak virtual memory: 5103 megabytes
+    Info: Processing ended: Fri Dec 30 14:42:48 2022
+    Info: Elapsed time: 00:00:06
     Info: Total CPU time (on all processors): 00:00:06
 
 

@@ -1,3 +1,4 @@
+`define TimeExpire 32'd25000000
 module SevenDisplay(r_a,r_b,o1,o2,o3,o4,show,keypadBuf,o5);
 
 input [2:0] r_a,r_b;
@@ -56,5 +57,6 @@ begin
 		o1=7'b0000011;
 	end
 end
+
 
 endmodule 

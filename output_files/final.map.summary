@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Fri Dec 30 12:13:14 2022
+Analysis & Synthesis Status : Successful - Fri Dec 30 14:42:17 2022
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : final
 Top-level Entity Name : final
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
 Total registers : 100
-Total pins : 80
+Total pins : 81
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0
