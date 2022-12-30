@@ -42,7 +42,7 @@ end
 
 always@(keypadBuf)
 begin
-   if(!state)
+   if(!state) //question
 	   begin
 		   case(digit_state)
 			   d_1:q1=keypadBuf;
@@ -51,7 +51,7 @@ begin
 				d_4:q4=keypadBuf;
 			endcase
 		end
-	else
+	else //answer
 	   begin
 		   case(digit_state)
 			   d_1:a1=keypadBuf;

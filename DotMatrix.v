@@ -119,7 +119,7 @@ always @(posedge clk_div or negedge reset)begin
 				endcase
 			if(r_a == 4) begin //good
 				case(row_count)
-				3'd0: dot_col1 <= 8'b00000000;
+				3'd0: dot_col1 <= 8'b00110000;
 				3'd1: dot_col1 <= 8'b00110000;
 				3'd2: dot_col1 <= 8'b01110000;
 				3'd3: dot_col1 <= 8'b01111110;
@@ -138,7 +138,7 @@ always @(posedge clk_div or negedge reset)begin
 					3'd4: dot_col1 <= 8'b01111110;
 					3'd5: dot_col1 <= 8'b00110000;
 					3'd6: dot_col1 <= 8'b00110000;
-					3'd7: dot_col1 <= 8'b00000000;
+					3'd7: dot_col1 <= 8'b00110000;
 				endcase
 			end
 		end

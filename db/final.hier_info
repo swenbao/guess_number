@@ -1,5 +1,5 @@
 |final
-state => state.IN2
+state => state.IN3
 digit[0] => digit[0].IN1
 digit[1] => digit[1].IN1
 digit[2] => digit[2].IN1
@@ -10,75 +10,75 @@ keypadCol[1] => keypadCol[1].IN1
 keypadCol[2] => keypadCol[2].IN1
 keypadCol[3] => keypadCol[3].IN1
 rst => rst.IN4
-keypadRow[0] <= Checkkeypad:cp.port2
-keypadRow[1] <= Checkkeypad:cp.port2
-keypadRow[2] <= Checkkeypad:cp.port2
-keypadRow[3] <= Checkkeypad:cp.port2
+keypadRow[0] << Checkkeypad:cp.port2
+keypadRow[1] << Checkkeypad:cp.port2
+keypadRow[2] << Checkkeypad:cp.port2
+keypadRow[3] << Checkkeypad:cp.port2
 show => show.IN2
-match => match.IN2
-o1[0] <= SevenDisplay:sd.port2
-o1[1] <= SevenDisplay:sd.port2
-o1[2] <= SevenDisplay:sd.port2
-o1[3] <= SevenDisplay:sd.port2
-o1[4] <= SevenDisplay:sd.port2
-o1[5] <= SevenDisplay:sd.port2
-o1[6] <= SevenDisplay:sd.port2
-o2[0] <= SevenDisplay:sd.port3
-o2[1] <= SevenDisplay:sd.port3
-o2[2] <= SevenDisplay:sd.port3
-o2[3] <= SevenDisplay:sd.port3
-o2[4] <= SevenDisplay:sd.port3
-o2[5] <= SevenDisplay:sd.port3
-o2[6] <= SevenDisplay:sd.port3
-o3[0] <= SevenDisplay:sd.port4
-o3[1] <= SevenDisplay:sd.port4
-o3[2] <= SevenDisplay:sd.port4
-o3[3] <= SevenDisplay:sd.port4
-o3[4] <= SevenDisplay:sd.port4
-o3[5] <= SevenDisplay:sd.port4
-o3[6] <= SevenDisplay:sd.port4
-o4[0] <= SevenDisplay:sd.port5
-o4[1] <= SevenDisplay:sd.port5
-o4[2] <= SevenDisplay:sd.port5
-o4[3] <= SevenDisplay:sd.port5
-o4[4] <= SevenDisplay:sd.port5
-o4[5] <= SevenDisplay:sd.port5
-o4[6] <= SevenDisplay:sd.port5
-o5[0] <= SevenDisplay:sd.port8
-o5[1] <= SevenDisplay:sd.port8
-o5[2] <= SevenDisplay:sd.port8
-o5[3] <= SevenDisplay:sd.port8
-o5[4] <= SevenDisplay:sd.port8
-o5[5] <= SevenDisplay:sd.port8
-o5[6] <= SevenDisplay:sd.port8
+match => match.IN3
+o1[0] << SevenDisplay:sd.port2
+o1[1] << SevenDisplay:sd.port2
+o1[2] << SevenDisplay:sd.port2
+o1[3] << SevenDisplay:sd.port2
+o1[4] << SevenDisplay:sd.port2
+o1[5] << SevenDisplay:sd.port2
+o1[6] << SevenDisplay:sd.port2
+o2[0] << SevenDisplay:sd.port3
+o2[1] << SevenDisplay:sd.port3
+o2[2] << SevenDisplay:sd.port3
+o2[3] << SevenDisplay:sd.port3
+o2[4] << SevenDisplay:sd.port3
+o2[5] << SevenDisplay:sd.port3
+o2[6] << SevenDisplay:sd.port3
+o3[0] << SevenDisplay:sd.port4
+o3[1] << SevenDisplay:sd.port4
+o3[2] << SevenDisplay:sd.port4
+o3[3] << SevenDisplay:sd.port4
+o3[4] << SevenDisplay:sd.port4
+o3[5] << SevenDisplay:sd.port4
+o3[6] << SevenDisplay:sd.port4
+o4[0] << SevenDisplay:sd.port5
+o4[1] << SevenDisplay:sd.port5
+o4[2] << SevenDisplay:sd.port5
+o4[3] << SevenDisplay:sd.port5
+o4[4] << SevenDisplay:sd.port5
+o4[5] << SevenDisplay:sd.port5
+o4[6] << SevenDisplay:sd.port5
+o5[0] << SevenDisplay:sd.port8
+o5[1] << SevenDisplay:sd.port8
+o5[2] << SevenDisplay:sd.port8
+o5[3] << SevenDisplay:sd.port8
+o5[4] << SevenDisplay:sd.port8
+o5[5] << SevenDisplay:sd.port8
+o5[6] << SevenDisplay:sd.port8
 digit_4 => digit_4.IN1
 digit_3 => digit_3.IN1
 digit_2 => digit_2.IN1
 digit_1 => digit_1.IN1
-dot_row[0] <= DotMatrix:comb_3.port7
-dot_row[1] <= DotMatrix:comb_3.port7
-dot_row[2] <= DotMatrix:comb_3.port7
-dot_row[3] <= DotMatrix:comb_3.port7
-dot_row[4] <= DotMatrix:comb_3.port7
-dot_row[5] <= DotMatrix:comb_3.port7
-dot_row[6] <= DotMatrix:comb_3.port7
-dot_row[7] <= DotMatrix:comb_3.port7
-dot_col1[0] <= DotMatrix:comb_3.port9
-dot_col1[1] <= DotMatrix:comb_3.port9
-dot_col1[2] <= DotMatrix:comb_3.port9
-dot_col1[3] <= DotMatrix:comb_3.port9
-dot_col1[4] <= DotMatrix:comb_3.port9
-dot_col1[5] <= DotMatrix:comb_3.port9
-dot_col1[6] <= DotMatrix:comb_3.port9
-dot_col1[7] <= DotMatrix:comb_3.port9
-dot_col2[0] <= DotMatrix:comb_3.port8
-dot_col2[1] <= DotMatrix:comb_3.port8
-dot_col2[2] <= DotMatrix:comb_3.port8
-dot_col2[3] <= DotMatrix:comb_3.port8
-dot_col2[4] <= DotMatrix:comb_3.port8
-dot_col2[5] <= DotMatrix:comb_3.port8
-dot_col2[6] <= DotMatrix:comb_3.port8
-dot_col2[7] <= DotMatrix:comb_3.port8
+dot_row[0] << DotMatrix:dm.port7
+dot_row[1] << DotMatrix:dm.port7
+dot_row[2] << DotMatrix:dm.port7
+dot_row[3] << DotMatrix:dm.port7
+dot_row[4] << DotMatrix:dm.port7
+dot_row[5] << DotMatrix:dm.port7
+dot_row[6] << DotMatrix:dm.port7
+dot_row[7] << DotMatrix:dm.port7
+dot_col1[0] << DotMatrix:dm.port9
+dot_col1[1] << DotMatrix:dm.port9
+dot_col1[2] << DotMatrix:dm.port9
+dot_col1[3] << DotMatrix:dm.port9
+dot_col1[4] << DotMatrix:dm.port9
+dot_col1[5] << DotMatrix:dm.port9
+dot_col1[6] << DotMatrix:dm.port9
+dot_col1[7] << DotMatrix:dm.port9
+dot_col2[0] << DotMatrix:dm.port8
+dot_col2[1] << DotMatrix:dm.port8
+dot_col2[2] << DotMatrix:dm.port8
+dot_col2[3] << DotMatrix:dm.port8
+dot_col2[4] << DotMatrix:dm.port8
+dot_col2[5] << DotMatrix:dm.port8
+dot_col2[6] << DotMatrix:dm.port8
+dot_col2[7] << DotMatrix:dm.port8
 
 
 |final|FrequencyDivider:fd
@@ -250,6 +250,19 @@ keypadBuf[0] <= keypadBuf[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 keypadBuf[1] <= keypadBuf[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 keypadBuf[2] <= keypadBuf[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 keypadBuf[3] <= keypadBuf[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|final|clear:comb_3
+state => ~NO_FANOUT~
+match => ~NO_FANOUT~
+in[0] => ~NO_FANOUT~
+in[1] => ~NO_FANOUT~
+in[2] => ~NO_FANOUT~
+in[3] => ~NO_FANOUT~
+keypadBuf[0] <= <GND>
+keypadBuf[1] <= <GND>
+keypadBuf[2] <= <GND>
+keypadBuf[3] <= <GND>
 
 
 |final|Controller:md
@@ -550,14 +563,12 @@ o5[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
 o5[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|final|DotMatrix:comb_3
+|final|DotMatrix:dm
 show => always0.IN0
 r_a[0] => Equal0.IN31
 r_a[1] => Equal0.IN30
 r_a[2] => Equal0.IN0
 match => always0.IN1
-match => dot_col2.OUTPUTSELECT
-match => dot_col2.OUTPUTSELECT
 match => dot_col2.OUTPUTSELECT
 match => dot_col2.OUTPUTSELECT
 match => dot_col2.OUTPUTSELECT
@@ -594,7 +605,7 @@ digit_state[1] => Mux1.IN4
 digit_state[1] => Mux2.IN4
 digit_state[1] => Mux3.IN4
 digit_state[1] => Mux4.IN4
-qa_state => Decoder4.IN0
+qa_state => Decoder3.IN0
 clk_div => row_count[0].CLK
 clk_div => row_count[1].CLK
 clk_div => row_count[2].CLK
