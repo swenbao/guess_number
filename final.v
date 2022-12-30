@@ -18,7 +18,7 @@ wire state_num;
 FrequencyDivider fd(clk,rst,div_clk);
 FrequencyDivider2 fd2(clk,rst,div_clk2);
 Checkkeypad cp(div_clk,rst,keypadRow,keypadCol,keypadBuf);
-Controller md(state, rst,digit,keypadBuf,q1,q2,q3,q4,a1,a2,a3,a4,digit_4,digit_3,digit_2,digit_1,div_clk,digit_state, state_num);
+Controller md(rst,digit,keypadBuf,q1,q2,q3,q4,a1,a2,a3,a4,digit_4,digit_3,digit_2,digit_1,div_clk,digit_state, state_num);
 Match mt(q1,q2,q3,q4,a1,a2,a3,a4,r_a,r_b,match);
 SevenDisplay sd(r_a,r_b,o1,o2,o3,o4,show,keypadBuf,o5);
 DotMatrix dm(show,r_a,match,digit_state,state_num,div_clk2,rst,dot_row,dot_col2,dot_col1);
