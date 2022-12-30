@@ -8,7 +8,8 @@ input  qa_state;
 output reg [7:0] dot_row;
 output reg [7:0] dot_col1,dot_col2;
 reg [2:0] row_count;
-always @(posedge clk_div or negedge reset)begin
+always @(posedge clk_div or negedge reset)
+begin
 	if(!reset)begin //reset=0
 		dot_row<=8'b11111111;
 		dot_col1<=8'd0;

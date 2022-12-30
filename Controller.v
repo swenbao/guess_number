@@ -1,10 +1,11 @@
-module Controller(state,digit,keypadBuf,q1,q2,q3,q4,a1,a2,a3,a4,digit_4,digit_3,digit_2,digit_1,clock,digit_state);
+module Controller(state,digit,keypadBuf,q1,q2,q3,q4,a1,a2,a3,a4,digit_4,digit_3,digit_2,digit_1,clock,digit_state, state_num);
 
 input state;
 input [3:0] digit;
 input [3:0] keypadBuf;
 output [3:0] q1,q2,q3,q4,a1,a2,a3,a4;
 
+output reg state_num;
 reg [3:0] q1,q2,q3,q4,a1,a2,a3,a4;
 reg [3:0] error;
 
@@ -14,7 +15,6 @@ output reg [3:0]digit_state;
 reg [1:0]next_state;
 parameter d_4 = 3,d_3 = 2,d_2 = 1,d_1 = 0;
 input clock;
-
 
 always@(posedge clock)
 begin
@@ -40,9 +40,15 @@ begin
 
 end
 
+
+always@(negedge state)
+begin
+	state_num = state_num + 1;
+end
+
 always@(keypadBuf)
 begin
-   if(!state) //question
+   if(!state_num) //question
 	   begin
 		   case(digit_state)
 			   d_1:q1=keypadBuf;
