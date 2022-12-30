@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(5CEFA4F23) Path("C:/intelFPGA_lite/final project/output_files/") File("final.sof") MfrSpec(OpMask(1));
+		Device PartName(5CEFA4F23) Path("C:/intelFPGA_lite/guess_number/output_files/") File("final.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

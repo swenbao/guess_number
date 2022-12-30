@@ -96,11 +96,87 @@
 					"strict" : false
 				},
 				{
-					"name" : "digit_state[0]",
+					"name" : "dot_row[0]",
 					"strict" : false
 				},
 				{
-					"name" : "digit_state[1]",
+					"name" : "dot_row[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dot_row[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dot_row[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dot_row[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dot_row[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dot_row[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dot_row[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dot_col1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dot_col1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dot_col1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dot_col1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dot_col1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dot_col1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dot_col2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dot_col2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dot_col2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dot_col2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dot_col2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dot_col2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dot_col2[7]",
 					"strict" : false
 				},
 				{
@@ -136,6 +212,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
 					"name" : "digit_4",
 					"strict" : false
 				},
@@ -149,10 +229,6 @@
 				},
 				{
 					"name" : "digit_1",
-					"strict" : false
-				},
-				{
-					"name" : "clk",
 					"strict" : false
 				}
 			]
