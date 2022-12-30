@@ -1,13 +1,13 @@
-Fitter Status : Successful - Fri Dec 30 14:42:37 2022
+Fitter Status : Successful - Fri Dec 30 14:57:59 2022
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : final
 Top-level Entity Name : final
 Family : Cyclone V
 Device : 5CEFA4F23C7
 Timing Models : Final
-Logic utilization (in ALMs) : 127 / 18,480 ( < 1 % )
-Total registers : 133
-Total pins : 81 / 224 ( 36 % )
+Logic utilization (in ALMs) : 126 / 18,480 ( < 1 % )
+Total registers : 128
+Total pins : 76 / 224 ( 34 % )
 Total virtual pins : 0
 Total block memory bits : 0 / 3,153,920 ( 0 % )
 Total RAM Blocks : 0 / 308 ( 0 % )

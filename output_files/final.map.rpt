@@ -1,5 +1,5 @@
 Analysis & Synthesis report for final
-Fri Dec 30 14:42:17 2022
+Fri Dec 30 14:57:39 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -49,14 +49,14 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Fri Dec 30 14:42:17 2022       ;
+; Analysis & Synthesis Status     ; Successful - Fri Dec 30 14:57:39 2022       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; final                                       ;
 ; Top-level Entity Name           ; final                                       ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
 ; Total registers                 ; 100                                         ;
-; Total pins                      ; 81                                          ;
+; Total pins                      ; 76                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
 ; Total DSP Blocks                ; 0                                           ;
@@ -169,7 +169,8 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   0.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processors 3-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -205,14 +206,14 @@ refer to the applicable agreement for further details.
 ;                                             ;           ;
 ; Dedicated logic registers                   ; 100       ;
 ;                                             ;           ;
-; I/O pins                                    ; 81        ;
+; I/O pins                                    ; 76        ;
 ;                                             ;           ;
 ; Total DSP Blocks                            ; 0         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; rst~input ;
 ; Maximum fan-out                             ; 98        ;
-; Total fan-out                               ; 1298      ;
-; Average fan-out                             ; 2.67      ;
+; Total fan-out                               ; 1293      ;
+; Average fan-out                             ; 2.72      ;
 +---------------------------------------------+-----------+
 
 
@@ -221,7 +222,7 @@ refer to the applicable agreement for further details.
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------+-------------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name          ; Entity Name       ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------+-------------------+--------------+
-; |final                     ; 224 (0)             ; 100 (0)                   ; 0                 ; 0          ; 81   ; 0            ; |final                       ; final             ; work         ;
+; |final                     ; 224 (0)             ; 100 (0)                   ; 0                 ; 0          ; 76   ; 0            ; |final                       ; final             ; work         ;
 ;    |Checkkeypad:cp|        ; 10 (10)             ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |final|Checkkeypad:cp        ; Checkkeypad       ; work         ;
 ;    |Controller:md|         ; 43 (43)             ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |final|Controller:md         ; Controller        ; work         ;
 ;    |DotMatrix:dm|          ; 25 (25)             ; 24 (24)                   ; 0                 ; 0          ; 0    ; 0            ; |final|DotMatrix:dm          ; DotMatrix         ; work         ;
@@ -382,7 +383,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     shared            ; 3                           ;
 ;         2 data inputs ; 1                           ;
 ;         3 data inputs ; 2                           ;
-; boundary_port         ; 81                          ;
+; boundary_port         ; 76                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 6.20                        ;
 ; Average LUT depth     ; 3.11                        ;
@@ -404,7 +405,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Fri Dec 30 14:42:08 2022
+    Info: Processing started: Fri Dec 30 14:57:29 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off final -c final
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -434,57 +435,57 @@ Warning (10036): Verilog HDL or VHDL warning at Checkkeypad.v(10): object "keypa
 Warning (12125): Using design file controller.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: Controller File: C:/intelFPGA_lite/guess_number/controller.v Line: 1
 Info (12128): Elaborating entity "Controller" for hierarchy "Controller:md" File: C:/intelFPGA_lite/guess_number/final.v Line: 20
-Warning (10230): Verilog HDL assignment warning at controller.v(31): truncated value with size 32 to match size of target (2) File: C:/intelFPGA_lite/guess_number/controller.v Line: 31
-Warning (10230): Verilog HDL assignment warning at controller.v(33): truncated value with size 32 to match size of target (2) File: C:/intelFPGA_lite/guess_number/controller.v Line: 33
-Warning (10230): Verilog HDL assignment warning at controller.v(35): truncated value with size 32 to match size of target (2) File: C:/intelFPGA_lite/guess_number/controller.v Line: 35
-Warning (10230): Verilog HDL assignment warning at controller.v(37): truncated value with size 32 to match size of target (2) File: C:/intelFPGA_lite/guess_number/controller.v Line: 37
-Warning (10235): Verilog HDL Always Construct warning at controller.v(39): variable "digit_state" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/intelFPGA_lite/guess_number/controller.v Line: 39
-Warning (10230): Verilog HDL assignment warning at controller.v(39): truncated value with size 4 to match size of target (2) File: C:/intelFPGA_lite/guess_number/controller.v Line: 39
-Warning (10235): Verilog HDL Always Construct warning at controller.v(45): variable "state" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/intelFPGA_lite/guess_number/controller.v Line: 45
-Warning (10235): Verilog HDL Always Construct warning at controller.v(47): variable "digit_state" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/intelFPGA_lite/guess_number/controller.v Line: 47
-Warning (10270): Verilog HDL Case Statement warning at controller.v(47): incomplete case statement has no default case item File: C:/intelFPGA_lite/guess_number/controller.v Line: 47
-Warning (10235): Verilog HDL Always Construct warning at controller.v(56): variable "digit_state" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Warning (10270): Verilog HDL Case Statement warning at controller.v(56): incomplete case statement has no default case item File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Warning (10240): Verilog HDL Always Construct warning at controller.v(43): inferring latch(es) for variable "q4", which holds its previous value in one or more paths through the always construct File: C:/intelFPGA_lite/guess_number/controller.v Line: 43
-Warning (10240): Verilog HDL Always Construct warning at controller.v(43): inferring latch(es) for variable "q3", which holds its previous value in one or more paths through the always construct File: C:/intelFPGA_lite/guess_number/controller.v Line: 43
-Warning (10240): Verilog HDL Always Construct warning at controller.v(43): inferring latch(es) for variable "q2", which holds its previous value in one or more paths through the always construct File: C:/intelFPGA_lite/guess_number/controller.v Line: 43
-Warning (10240): Verilog HDL Always Construct warning at controller.v(43): inferring latch(es) for variable "q1", which holds its previous value in one or more paths through the always construct File: C:/intelFPGA_lite/guess_number/controller.v Line: 43
-Warning (10240): Verilog HDL Always Construct warning at controller.v(43): inferring latch(es) for variable "a4", which holds its previous value in one or more paths through the always construct File: C:/intelFPGA_lite/guess_number/controller.v Line: 43
-Warning (10240): Verilog HDL Always Construct warning at controller.v(43): inferring latch(es) for variable "a3", which holds its previous value in one or more paths through the always construct File: C:/intelFPGA_lite/guess_number/controller.v Line: 43
-Warning (10240): Verilog HDL Always Construct warning at controller.v(43): inferring latch(es) for variable "a2", which holds its previous value in one or more paths through the always construct File: C:/intelFPGA_lite/guess_number/controller.v Line: 43
-Warning (10240): Verilog HDL Always Construct warning at controller.v(43): inferring latch(es) for variable "a1", which holds its previous value in one or more paths through the always construct File: C:/intelFPGA_lite/guess_number/controller.v Line: 43
-Info (10041): Inferred latch for "a1[0]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "a1[1]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "a1[2]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "a1[3]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "a2[0]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "a2[1]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "a2[2]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "a2[3]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "a3[0]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "a3[1]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "a3[2]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "a3[3]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "a4[0]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "a4[1]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "a4[2]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "a4[3]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "q1[0]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "q1[1]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "q1[2]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "q1[3]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "q2[0]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "q2[1]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "q2[2]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "q2[3]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "q3[0]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "q3[1]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "q3[2]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "q3[3]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "q4[0]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "q4[1]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "q4[2]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
-Info (10041): Inferred latch for "q4[3]" at controller.v(56) File: C:/intelFPGA_lite/guess_number/controller.v Line: 56
+Warning (10230): Verilog HDL assignment warning at controller.v(30): truncated value with size 32 to match size of target (2) File: C:/intelFPGA_lite/guess_number/controller.v Line: 30
+Warning (10230): Verilog HDL assignment warning at controller.v(32): truncated value with size 32 to match size of target (2) File: C:/intelFPGA_lite/guess_number/controller.v Line: 32
+Warning (10230): Verilog HDL assignment warning at controller.v(34): truncated value with size 32 to match size of target (2) File: C:/intelFPGA_lite/guess_number/controller.v Line: 34
+Warning (10230): Verilog HDL assignment warning at controller.v(36): truncated value with size 32 to match size of target (2) File: C:/intelFPGA_lite/guess_number/controller.v Line: 36
+Warning (10235): Verilog HDL Always Construct warning at controller.v(38): variable "digit_state" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/intelFPGA_lite/guess_number/controller.v Line: 38
+Warning (10230): Verilog HDL assignment warning at controller.v(38): truncated value with size 4 to match size of target (2) File: C:/intelFPGA_lite/guess_number/controller.v Line: 38
+Warning (10235): Verilog HDL Always Construct warning at controller.v(44): variable "state" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/intelFPGA_lite/guess_number/controller.v Line: 44
+Warning (10235): Verilog HDL Always Construct warning at controller.v(46): variable "digit_state" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/intelFPGA_lite/guess_number/controller.v Line: 46
+Warning (10270): Verilog HDL Case Statement warning at controller.v(46): incomplete case statement has no default case item File: C:/intelFPGA_lite/guess_number/controller.v Line: 46
+Warning (10235): Verilog HDL Always Construct warning at controller.v(55): variable "digit_state" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Warning (10270): Verilog HDL Case Statement warning at controller.v(55): incomplete case statement has no default case item File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Warning (10240): Verilog HDL Always Construct warning at controller.v(42): inferring latch(es) for variable "q4", which holds its previous value in one or more paths through the always construct File: C:/intelFPGA_lite/guess_number/controller.v Line: 42
+Warning (10240): Verilog HDL Always Construct warning at controller.v(42): inferring latch(es) for variable "q3", which holds its previous value in one or more paths through the always construct File: C:/intelFPGA_lite/guess_number/controller.v Line: 42
+Warning (10240): Verilog HDL Always Construct warning at controller.v(42): inferring latch(es) for variable "q2", which holds its previous value in one or more paths through the always construct File: C:/intelFPGA_lite/guess_number/controller.v Line: 42
+Warning (10240): Verilog HDL Always Construct warning at controller.v(42): inferring latch(es) for variable "q1", which holds its previous value in one or more paths through the always construct File: C:/intelFPGA_lite/guess_number/controller.v Line: 42
+Warning (10240): Verilog HDL Always Construct warning at controller.v(42): inferring latch(es) for variable "a4", which holds its previous value in one or more paths through the always construct File: C:/intelFPGA_lite/guess_number/controller.v Line: 42
+Warning (10240): Verilog HDL Always Construct warning at controller.v(42): inferring latch(es) for variable "a3", which holds its previous value in one or more paths through the always construct File: C:/intelFPGA_lite/guess_number/controller.v Line: 42
+Warning (10240): Verilog HDL Always Construct warning at controller.v(42): inferring latch(es) for variable "a2", which holds its previous value in one or more paths through the always construct File: C:/intelFPGA_lite/guess_number/controller.v Line: 42
+Warning (10240): Verilog HDL Always Construct warning at controller.v(42): inferring latch(es) for variable "a1", which holds its previous value in one or more paths through the always construct File: C:/intelFPGA_lite/guess_number/controller.v Line: 42
+Info (10041): Inferred latch for "a1[0]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "a1[1]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "a1[2]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "a1[3]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "a2[0]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "a2[1]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "a2[2]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "a2[3]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "a3[0]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "a3[1]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "a3[2]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "a3[3]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "a4[0]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "a4[1]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "a4[2]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "a4[3]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "q1[0]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "q1[1]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "q1[2]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "q1[3]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "q2[0]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "q2[1]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "q2[2]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "q2[3]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "q3[0]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "q3[1]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "q3[2]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "q3[3]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "q4[0]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "q4[1]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "q4[2]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
+Info (10041): Inferred latch for "q4[3]" at controller.v(55) File: C:/intelFPGA_lite/guess_number/controller.v Line: 55
 Info (12128): Elaborating entity "Match" for hierarchy "Match:mt" File: C:/intelFPGA_lite/guess_number/final.v Line: 21
 Info (12128): Elaborating entity "SevenDisplay" for hierarchy "SevenDisplay:sd" File: C:/intelFPGA_lite/guess_number/final.v Line: 22
 Info (12128): Elaborating entity "DotMatrix" for hierarchy "DotMatrix:dm" File: C:/intelFPGA_lite/guess_number/final.v Line: 23
@@ -514,21 +515,15 @@ Info (286030): Timing-Driven Synthesis is running
 Info (144001): Generated suppressed messages file C:/intelFPGA_lite/guess_number/output_files/final.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 5 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "seven_reset" File: C:/intelFPGA_lite/guess_number/final.v Line: 3
-    Warning (15610): No output dependent on input pin "digit[0]" File: C:/intelFPGA_lite/guess_number/final.v Line: 4
-    Warning (15610): No output dependent on input pin "digit[1]" File: C:/intelFPGA_lite/guess_number/final.v Line: 4
-    Warning (15610): No output dependent on input pin "digit[2]" File: C:/intelFPGA_lite/guess_number/final.v Line: 4
-    Warning (15610): No output dependent on input pin "digit[3]" File: C:/intelFPGA_lite/guess_number/final.v Line: 4
-Info (21057): Implemented 305 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 18 input pins
+Info (21057): Implemented 300 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 13 input pins
     Info (21059): Implemented 63 output pins
     Info (21061): Implemented 224 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 54 warnings
-    Info: Peak virtual memory: 4826 megabytes
-    Info: Processing ended: Fri Dec 30 14:42:17 2022
-    Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:18
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 48 warnings
+    Info: Peak virtual memory: 4844 megabytes
+    Info: Processing ended: Fri Dec 30 14:57:39 2022
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:19
 
 
 +------------------------------------------+

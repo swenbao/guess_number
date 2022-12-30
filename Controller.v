@@ -1,7 +1,6 @@
-module Controller(state,digit,keypadBuf,q1,q2,q3,q4,a1,a2,a3,a4,digit_4,digit_3,digit_2,digit_1,clock,digit_state);
+module Controller(state,keypadBuf,q1,q2,q3,q4,a1,a2,a3,a4,digit_4,digit_3,digit_2,digit_1,clock,digit_state);
 
 input state;
-input [3:0] digit;
 input [3:0] keypadBuf;
 output [3:0] q1,q2,q3,q4,a1,a2,a3,a4;
 
@@ -64,30 +63,7 @@ end
 
 
 
-//---------------------------------
-/*always@(keypadBuf)
-begin
-   if(!state)
-	   begin
-		   case(digit)
-			   4'b0001:q1=keypadBuf;
-				4'b0010:q2=keypadBuf;
-				4'b0100:q3=keypadBuf;
-				4'b1000:q4=keypadBuf;
-				default:error=keypadBuf;
-			endcase
-		end
-	else
-	   begin
-		   case(digit)
-			   4'b0001:a1=keypadBuf;
-				4'b0010:a2=keypadBuf;
-				4'b0100:a3=keypadBuf;
-				4'b1000:a4=keypadBuf;
-				default:error=keypadBuf;
-			endcase
-		end
-end*/
+
 
 
 endmodule 
