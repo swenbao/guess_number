@@ -1,5 +1,5 @@
 Assembler report for final
-Tue Dec 27 18:08:45 2022
+Fri Dec 30 09:57:04 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -10,7 +10,7 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/intelFPGA_lite/final project/output_files/final.sof
+  5. Assembler Device Options: C:/intelFPGA_lite/guess_number/output_files/final.sof
   6. Assembler Messages
 
 
@@ -37,7 +37,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Tue Dec 27 18:08:45 2022 ;
+; Assembler Status      ; Successful - Fri Dec 30 09:57:04 2022 ;
 ; Revision Name         ; final                                 ;
 ; Top-level Entity Name ; final                                 ;
 ; Family                ; Cyclone V                             ;
@@ -52,23 +52,23 @@ refer to the applicable agreement for further details.
 +--------+---------+---------------+
 
 
-+--------------------------------------------------------+
-; Assembler Generated Files                              ;
-+--------------------------------------------------------+
-; File Name                                              ;
-+--------------------------------------------------------+
-; C:/intelFPGA_lite/final project/output_files/final.sof ;
-+--------------------------------------------------------+
++-------------------------------------------------------+
+; Assembler Generated Files                             ;
++-------------------------------------------------------+
+; File Name                                             ;
++-------------------------------------------------------+
+; C:/intelFPGA_lite/guess_number/output_files/final.sof ;
++-------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------------+
-; Assembler Device Options: C:/intelFPGA_lite/final project/output_files/final.sof ;
-+----------------+-----------------------------------------------------------------+
-; Option         ; Setting                                                         ;
-+----------------+-----------------------------------------------------------------+
-; JTAG usercode  ; 0x0050FECA                                                      ;
-; Checksum       ; 0x0050FECA                                                      ;
-+----------------+-----------------------------------------------------------------+
++---------------------------------------------------------------------------------+
+; Assembler Device Options: C:/intelFPGA_lite/guess_number/output_files/final.sof ;
++----------------+----------------------------------------------------------------+
+; Option         ; Setting                                                        ;
++----------------+----------------------------------------------------------------+
+; JTAG usercode  ; 0x0052DD96                                                     ;
+; Checksum       ; 0x0052DD96                                                     ;
++----------------+----------------------------------------------------------------+
 
 
 +--------------------+
@@ -77,14 +77,14 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Tue Dec 27 18:08:43 2022
+    Info: Processing started: Fri Dec 30 09:57:01 2022
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off final -c final
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4810 megabytes
-    Info: Processing ended: Tue Dec 27 18:08:45 2022
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Peak virtual memory: 4811 megabytes
+    Info: Processing ended: Fri Dec 30 09:57:04 2022
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:03
 
 

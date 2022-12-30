@@ -1,4 +1,4 @@
-`define TimeExpire 32'd25000000
+`define TimeExpire 32'd2500
 
 module FrequencyDivider2(clk,rst,clk_div);
 input clk,rst;
