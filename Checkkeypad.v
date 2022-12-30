@@ -19,8 +19,6 @@ begin
 	end
 	else
 	begin
-	   //if(keypadDelay==`TimeExpire_KEY)
-		begin
 		   keypadDelay=31'd0;
 			case({keypadRow,keypadCol})
 			   8'b1110_1110:keypadBuf<=4'h7;
@@ -51,6 +49,6 @@ begin
 	   end
 	//else
 	  // keypadDelay<=keypadDelay+1'b1;
-	end
 end
+
 endmodule 

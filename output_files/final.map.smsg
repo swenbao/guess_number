@@ -1,1 +1,2 @@
 Warning (10268): Verilog HDL information at Checkkeypad.v(12): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA_lite/guess_number/Checkkeypad.v Line: 12
+Warning (10268): Verilog HDL information at SevenDisplay.v(12): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA_lite/guess_number/SevenDisplay.v Line: 12
